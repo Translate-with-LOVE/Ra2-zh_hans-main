@@ -19,8 +19,8 @@ jobs:
       - name: Covent format to csf
         run: |
           ./.github/bin/CsfCoventer/CsfCovente.exe
-          echo "./.github/temp/ra2.csf.ini"
-          echo "./.github/temp/ra2md.csf.ini"
+          echo "./ra2.csf.ini"
+          echo "./ra2md.csf.ini"
       - name: Update csf to release
         uses: softprops/action-gh-release@v1
         env:
