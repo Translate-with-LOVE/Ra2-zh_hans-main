@@ -1,0 +1,32 @@
+name: Release-Auto-Pack
+run-name: Packing Language Pack...
+on:
+  [push]
+  # registry_package:
+  #  types: [published]
+jobs:
+
+  download-csf-files-and-covent:
+
+    runs-on: windows-2022
+
+    setps:
+      - name: Download latest csf translate file in INI format
+        uses: actions/checkout@v3
+        run: ./.github/scripts/download_latest_csf.cmd
+        shell: cmd
+      - name: Covent format to csf
+        run: |
+          ./.github/bin/CsfCoventer/CsfCovente.exe
+          echo "./.github/temp/ra2.csf.ini"
+          echo "./.github/temp/ra2md.csf.ini"
+      - name: Update csf to release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+        with:
+          files: |
+            ./ra2.csf
+            ./ra2md/csf
+
+
