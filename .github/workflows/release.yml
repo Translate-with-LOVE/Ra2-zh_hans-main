@@ -18,7 +18,7 @@ jobs:
         shell: cmd
       - name: Covent format to csf
         run: |
-          ./.github/bin/CsfCoventer/CsfCovente.exe
+          ./.github/bin/CsfCoventer/CsfCoventer.exe
           echo "./ra2.csf.ini"
           echo "./ra2md.csf.ini"
       - name: Update csf to release
