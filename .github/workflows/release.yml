@@ -10,7 +10,7 @@ jobs:
 
     runs-on: windows-2022
 
-    setps:
+    steps:
       - name: Download latest csf translate file in INI format
         uses: actions/checkout@v3
         run: ./.github/scripts/download_latest_csf.cmd
