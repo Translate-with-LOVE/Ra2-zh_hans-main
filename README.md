@@ -1,1 +1,3 @@
-# Red-Alert-2_Simplified-Chinese-Language-Pack
+# 红色警戒2 简体中文语言包
+
+此产品不受 EA 官方认可及支持。
