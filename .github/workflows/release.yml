@@ -1,9 +1,9 @@
 name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
-  [push]
-  # registry_package:
-  #  types: [published]
+  # [push]
+  registry_package:
+    types: [published]
 jobs:
 
   download-csf-files-and-covent:
@@ -21,11 +21,12 @@ jobs:
           ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
       - name: Update csf to release
         uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           files: |
             ./ra2.csf
-            ./ra2md/csf
+            ./ra2md.csf
 
 
