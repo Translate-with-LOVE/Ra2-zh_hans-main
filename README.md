@@ -15,6 +15,7 @@
 | movie       | 过场动画             |
 | fnt         | 带有简体字的字库     |
 | shp         | 游戏图像             |
+| subtitle    | 字幕文件             |
 | credits     | 制作人员名单         |
 | \_src_files | 原版繁体翻译文件     |
 
