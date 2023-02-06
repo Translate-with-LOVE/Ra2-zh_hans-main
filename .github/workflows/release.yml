@@ -37,8 +37,8 @@ jobs:
         run: |
           Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameo/" -Force
           Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameomd/" -Force
-          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/audio.mix" -checksum -encrypt
-          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/audiomd.mix" -checksum -encrypt
+          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/cameo.mix" -checksum -encrypt
+          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/cameomd.mix" -checksum -encrypt
         shell: pwsh
       - name: Copy there files cameo files
         run: |
@@ -56,7 +56,7 @@ jobs:
         shell: pwsh
       - name: Zip langeuage pack
         run: |
-          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" subtitle\*
+          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" .\subtitle\*
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" language.mix
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" langmd.mix
       - name: Upload files to release
