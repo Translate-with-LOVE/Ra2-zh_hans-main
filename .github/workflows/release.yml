@@ -1,16 +1,16 @@
 name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
-  # [push]
-  release:
-    types: [published]
+  [push]
+  # release:
+  #   types: [published]
 jobs:
 
   download-csf-files-and-covent:
 
     runs-on: windows-2022
     steps:
-    
+
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Download latest csf translate file in INI format
@@ -40,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           files: |
-            ./_src_files/language/audio.mix
-            ./_src_files/langmd/audiomd.mix
+            "./_src_files/language/audio.mix"
+            "./_src_files/langmd/audiomd.mix"
 
 
