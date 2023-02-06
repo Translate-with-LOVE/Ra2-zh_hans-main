@@ -10,7 +10,6 @@ jobs:
 
     runs-on: windows-2022
     steps:
-
       - name: Checkout Repository
         uses: actions/checkout@v3
       - name: Download latest csf translate file in INI format
@@ -31,8 +30,9 @@ jobs:
           go build
       -name: Pack audio.mix & audiomd.mix
         run: |
-          ccmixar.exe -game ra2 -dir ${{ join(github.action_path, "/_src_files/audio") }} -mix ${{ join(github.action_path, "/_src_files/language/audio.mix") }}
-          ccmixar.exe -game ra2 -dir ${{ join(github.action_path, "/_src_files/audiomd") }} -mix ${{ join(github.action_path, "/_src_files/langmd/audiomd.mix") }}
+          cd ccmixar
+          ccmixar.exe -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
+          ccmixar.exe -game ra2 -dir "../_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
       - name: Update csf to release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
