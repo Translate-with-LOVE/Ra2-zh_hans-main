@@ -19,6 +19,20 @@ jobs:
       - name: Covent format to csf
         run: |
           ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
+      - name: Pack chinese audio to bag files
+        run: |
+          cd ./.github/scripts/pack-audio-bags
+          npm i
+          node index.js
+      - name: Download & build ccmixar
+        run: |
+          git clone https://github.com/askeladdk/ccmixar.git
+          cd ccmixar
+          go build
+      -name: Pack audio.mix & audiomd.mix
+        run: |
+          ccmixar.exe -game ra2 -dir ${{ join(github.action_path, "/_src_files/audio") }} -mix ${{ join(github.action_path, "/_src_files/language/audio.mix") }}
+          ccmixar.exe -game ra2 -dir ${{ join(github.action_path, "/_src_files/audiomd") }} -mix ${{ join(github.action_path, "/_src_files/langmd/audiomd.mix") }}
       - name: Update csf to release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
@@ -26,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           files: |
-            ./ra2.csf
-            ./ra2md.csf
+            ./_src_files/language/audio.mix
+            ./_src_files/langmd/audiomd.mix
 
 
