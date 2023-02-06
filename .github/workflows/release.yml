@@ -1,9 +1,9 @@
 name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
-  [push]
-  # release:
-  #   types: [published]
+  #[push]
+  release:
+    types: [published]
 jobs:
   pack-all-files:
     name: Build & Pack Language Pack
@@ -32,12 +32,38 @@ jobs:
           cd ccmixar
           ./ccmixar.exe pack -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
           ./ccmixar.exe pack -game ra2 -dir "../_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
-      - name: Update files to release
+        shell: pwsh
+      - name: Copy & pack cameo files
+        run: |
+          Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameo/" -Force
+          Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameomd/" -Force
+          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/audio.mix" -checksum -encrypt
+          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/audiomd.mix" -checksum -encrypt
+        shell: pwsh
+      - name: Copy there files cameo files
+        run: |
+          Copy-Item "./bik/ra2/*" -Destination "./_src_files/language/" -Force
+          Copy-Item "./bik/yr/*" -Destination "./_src_files/langmd/" -Force
+          Copy-Item "./credits/credits.txt" -Destination "./_src_files/language/" -Force
+          Copy-Item "./credits/creditsmd.txt" -Destination "./_src_files/langmd/" -Force
+          Copy-Item "./fnt/game.fnt" -Destination "./_src_files/language/" -Force
+          Copy-Item "./shp/grfxtxt.shp" -Destination "./_src_files/language/" -Force
+        shell: pwsh
+      - name: Pack langeuage pack mix files
+        run: |
+          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/language" -mix "./language.mix" -checksum -encrypt
+          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/langmd" -mix "./langmd.mix" -checksum
+        shell: pwsh
+      - name: Zip langeuage pack
+        run: |
+          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" subtitle\*
+          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" language.mix
+          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" langmd.mix
+      - name: Upload files to release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           files: |
-            "./_src_files/language/audio.mix"
-            "./_src_files/langmd/audiomd.mix"
+            "RedAlert2-LanguagePack-ChineseSimplified.zip"
