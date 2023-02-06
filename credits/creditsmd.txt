@@ -1,0 +1,764 @@
+       {CRD:CREDITS}
+
+       {CRD:INTRODUCTION1}
+       {CRD:INTRODUCTION2}
+       {CRD:INTRODUCTION3}
+
+
+
+       {CRD_TTL:PRODUCTION}
+
+       - {CRD:Executive_Producers} -
+       Mark Skaggs
+       Wayne Townsend
+
+       - {CRD:Producer} -
+       Frank Hsu
+
+       - {CRD:Associate_Producer} -
+       Julio Valladares
+
+       - {CRD:Production_Coordinator} -
+       Julie Brugman
+
+
+
+       {CRD_TTL:DESIGN}
+
+       - {CRD:Director_of_Design} -
+       John Hight
+
+       - {CRD:Design_Leads} -
+       Todd Owens
+       Dustin Browder
+
+       - {CRD:Designers} -
+       Eric Beaumont
+       John Lee
+       Bryan Wiegele
+       Bryan Hansen
+
+       - {CRD:Additional_Design} -
+       Brett Sperry
+
+       - {CRD:Story} -
+       Design Team
+
+
+
+       {CRD_TTL:PROGRAMMING}
+
+       - {CRD:Technical_Director} -
+       Michael S. Booth
+
+       - {CRD:Programmers} -
+       Graham Smallwood
+       Geoff Finger
+
+       - {CRD:Additional_programming} -
+       Thomas Rolfs
+
+
+       {CRD_TTL:NETWORK_PROGRAMMING}
+
+       - {CRD:Online_Technical_Director} -
+       Jeffrey Brown
+
+       - {CRD:Network_Programmers} -
+       Matt Campbell
+       Bryan Cleveland
+       Chris Huybregts
+       Steve Tall
+       Denzil Long
+       Greg Underwood
+
+
+       - {CRD:Installer} -
+       Maria del Mar McCready Legg
+
+
+
+       {CRD_TTL:GAME_ARTISTS}
+
+       - {CRD:Lead_Artists} -
+       Phil Robb
+       Josh Taylor
+
+       - {CRD:Concept_Art} -
+       T.J. Frame
+       Tom Baxa
+
+       - {CRD:Modelers} -
+       Todd Williams
+       Sean Keegan
+       Jason Hasenauer
+       Michael Jones
+       Larry Mast
+
+       - {CRD:Animation} -
+       Jason Zirpolo
+
+       - {CRD:Shell_Interface} -
+       Rose Kang
+
+       - {CRD:Additional_Art} -
+       Chris Ashton
+       Khanh Nguyen
+       Ido Magal
+
+
+
+
+       {CRD_TTL:CINEMATICS}
+
+       - {CRD:CG_Director} -
+       John Hight
+
+       - {CRD:CG_Art_Director} -
+       Cris Moras
+
+       - {CRD:CG_Artists} -
+       Insun Kang
+       Michael Jones
+
+       - {CRD:Additional_CG} -
+       Patrick Perez & Potbelly Goblin, Inc.
+       Shant Jordan & Wandering Eye, Inc.
+
+
+
+
+       {CRD_TTL:IN-GAME_AUDIO}
+
+       - {CRD:Lead_Sound_Designer} -
+       Mical Pedriana
+
+       - {CRD:Sound_Designer} -
+       David Fries
+
+       - {CRD:Original_Score} -
+       Frank Klepacki
+
+
+
+
+       {CRD_TTL:VIDEO_PRODUCTION_CREW}
+
+       - {CRD:VideoProducer} -                      
+       Donny Miele
+
+       - {CRD:Director} -                   
+       Joseph D. Kucan
+
+       - {CRD:Screenplay} -                         
+       Wynne McLaughlin
+
+       - {CRD:Editor} -                     
+       Curt Weintraub
+
+       - {CRD:Lead_Visual_Effects_Artist} -
+       Kevin Becquet
+
+       - {CRD:Production_Sound} -           
+       Dwight K. Okahara
+       Paul S. Mudra
+
+       - {CRD:Casting_Director} -           
+       Marilee Lear, CSA
+
+       - {CRD:Director_of_Photography} -    
+       Kurt Rauf
+
+       - {CRD:CG_supervisor} -	
+       Chuck Carter
+
+       - {CRD:Visual_sets} -
+       Bob Marker
+       Chuck Carter
+       Margo Angevine
+       Miles Ritter
+
+       - {CRD:Video_Compression} -
+       Tim C. Fritz
+
+       - {CRD:Director_of_Photography} -
+       Kurt Rauf
+
+       - {CRD:Gaffer} -                     
+       Stuart Bicknell
+
+       - {CRD:Key_Grip} -                   
+       Jeff Milesky
+
+       - {CRD:Grip} -                               
+       Jeremy Settles
+
+       - {CRD:Boom_Operator} -              
+       Richard Rasmussen
+
+       - {CRD:Foley_Recordist} -              
+       David E. Nelson
+       Outpost Studios
+
+       - {CRD:Foley_Artist} -              
+       Diane Langolis
+
+       - {CRD:Construction_Coordinator} -
+       Bobby Z
+
+       - {CRD:Lead_Sculpture} -
+       Daniel Miller
+        
+       - {CRD:Assistant_Sculpture} -
+       Jerry Garcia
+
+       - {CRD:Set_Decorator} -
+       Kari Nowell
+
+       - {CRD:Propmaster} -                         
+       Cliff Bernay
+
+       - {CRD:Props_Assistants} -
+       Giovanni Tartaglia
+       James Walsh
+
+       - {CRD:KeyMakeupEffectsWardrobe} -
+       Ron Wild
+
+       - {CRD:Key_Hair} -
+       Karen Stephens
+
+       - {CRD:Hair} -
+       Cindy Chamberlain
+       Sung Park
+
+       - {CRD:Make_Up_Assistant} -
+       Peggy Hanna
+
+       - {CRD:Wardrobe} -
+       Tracy Bohl
+
+       - {CRD:Wardrobe_Assistant} -
+       John Stone
+       Sergio Kiss
+
+       - {CRD:Production_Coordinator} -     
+       Kim Houser
+
+       - {CRD:Assistant_Coordinator} -     
+       Ramiro Gomez
+
+       - {CRD:Production_Assistants} -      
+       Nicholas Savalas
+       Patience Bacquet
+       Susan Simone
+
+       - {CRD:Script_Supervisor} -
+       Mark Thomas
+
+       - {CRD:Teleprompter_Operator} -      
+       David Washburn
+
+       - {CRD:Ultimatte_Operator} -         
+       Bob Kertesz
+       Blue Screen
+       LLC
+
+       - {CRD:Concept_Artist} -             
+       Chuck Wojtkiewicz
+
+       - {CRD:Storyboard_Artist} -          
+       Jeff Parker
+
+       - {CRD:Reader} -                     
+       Finley Bolton
+
+
+
+       {CRD_TTL:Cast}
+
+       - {CRD:Live_Action} -
+
+{CRD:Yuri}				Udo Kier
+{CRD:PresidentDugan}			Ray Wise
+{CRD:AgentTanya}			Kari Wuhrer
+{CRD:GeneralCarville}			Barry Corbin
+{CRD:PremierRomanov}		        Nicholas Worth
+{CRD:LieutenantEva}			Athena Massey
+{CRD:LieutenantZofia}			Aleksandra Kaniak
+{CRD:DrEinstein}			Larry Gelman
+{CRD:ChairmanBob}			Rick Ginn
+{CRD:SovietOfficers}			Alexander Moiseev
+                                        Andrei Skorobogatov
+                                        Igor Jijikine
+{CRD:AlliedGIs}			        Brett Logan
+                                        Lamar Lucas
+                                        Michael Rouleau
+                                        McKenzie Woodcock
+{CRD:PrisonGuards}                      Anrian Vanderwalt
+                                        Sly Smith
+{CRD:SecretService}			Robert Garretson
+                                        Spike Measer
+{CRD:WhiteHouseAides}                   Al Conahan
+                                        Eugene Harris
+                                        Matt Mooney
+                                        Peter Conklin
+                                        Rosie Heeter
+{CRD:AirForceGenerals}		        Dave Crockett
+                                        Robert Eustice
+{CRD:ArmyGenerals}		        Bruce Mastracchio
+                                        Sylvester Smith
+{CRD:NavyAdmiral}		        Michael Pfleegor
+{CRD:Medevac}			        Wayne Young
+{CRD:MoroccanBarGirl}			Cezette Gregory
+{CRD:BellyDancer}			Laura McDonald
+{CRD:SovietTimeCommando}		Elena Nekrassova
+
+
+
+       - {CRD:In-game_Voices} -
+
+       Andrew Ableson
+       Billy Pope
+       Diane Michelle
+       Elya Baskin
+       Hamilton Camp
+       Joe Nipote
+       John DiCrosta
+       John Francis
+       Keith Szarabajka
+       Marcello Tubert
+       Mari Weiss
+       Mark Worden
+       Patrick Pinney
+       Phil Morris
+       Quinton Flynn
+       Sherman Howard
+       Steve Vinovich
+       Vanessa Marshall
+       Wesley Mann
+       David Fries
+       Adam Greggor		
+       Stuart Nesbit		
+       Grant Albrecht		
+       Michael Bell
+       Douglas Rye
+       Gregg Berger		
+       Glenn Burtis		
+       Julie Brugman		
+       Sam McMurray		
+       Stefan Marks		
+       Adoni Maropis		
+       Andy Milder		
+       Phil Proctor		
+       Gustavo Rex		
+       Neil Ross		
+       Heidi Shannon		
+       Phil Tanzini		
+       John Vernon	
+
+
+
+
+       {CRD_TTL:WS_QUALITY_ASSURANCE}
+
+       - {CRD:QualityAssuranceDirectedby} -
+       Glenn Sperry
+
+       - {CRD:QA_Supervisor} -
+       Lloyd "Leachy" Bell
+
+
+       - {CRD:SrQA_Analysts} -
+       Doug Wilson
+
+       - {CRD:QA_Analysts} -
+       Ben Galley
+
+       - {CRD:InstallGuiSpecialist} -
+       Mike Smith
+
+       - {CRD:SoloSpecialist} -
+       Michael Ruppert
+
+       - {CRD:MultiplayerSpecialist} -
+       Steve Shockey
+
+       - {CRD:Specialists} -
+       Chris Blevens
+       Shane Dietrich
+       Thomas Quitoni
+
+       - {CRD:SrTech} -
+       Beau "Supertech" Hopkins
+
+       - {CRD:DataEntry} -
+       Rhoda Y. Anderson
+
+       - {CRD:BugReview} -
+       Chad Fletcher
+
+       - {CRD:QA_TestersLasVegas} -
+       Alex Colom
+       Brandon Aanderud
+       Brian Dilley
+       David Nygren
+       David Reese
+       David Russell
+       DeMarlo Lewis
+       Frank Yoder
+       Gregory Devore
+       Jason Campbell
+       Jason Renfroe
+       Jeremy Perkowski
+       Jon Jett
+       Jonathan Craig
+       Joseph Perry
+       Josh O'Bryan
+       Justin Lewis
+       Justin Reckling
+       Michael Sloan
+       Michael Lofti
+       Michael Ward
+       Nicholas Sherba
+       Richard Rassmusen
+       Shawn Mathews
+       Steve Lawton
+       Steve Tarantino
+       Thomas Riccardi
+       Tim Villaverde
+       Tony Castle
+
+       - {CRD:QA_TestersPacific} -
+       David Fleischmann
+       Gavin Simon
+       Greg Baldwin
+       Greg Black
+       Jim Corbin
+       Jon Goudrault
+       Michael Jorgensen
+       Samuel Luk
+
+
+
+
+       {CRD_TTL:CustomerService}
+	
+       - {CRD:director} -
+       Boyd Beasley
+
+       - {CRD:SDC} -
+       Mary Smith
+
+       - {CRD:Lead} -
+       Tim Hempel
+
+       - {CRD:Reps} -
+       Michelle Davis
+       Daniel Beahn
+
+
+
+
+       {CRD_TTL:MARKETING}
+
+       - {CRD:Vice_President_of_Marketing} -
+       Laura Miele
+
+       - {CRD:Marketing_Product_Manager} -
+       Aaron Cohen
+
+       - {CRD:Public_Relations_Managers} -
+       Amy Farris
+       Michael Shelling
+
+       - {CRD:DirectorofGraphicServices} -
+       Victoria Hart
+
+       - {CRD:Online_Director} -
+       Ted Morris
+
+       - {CRD:Online_Graphic_Artist} -
+       Jordan Robins
+       Greg Casey
+
+       - {CRD:OnlineCommunityManager} -
+       Chris Rubyor
+
+       - {CRD:Graphic_Designer} -
+       David Lamoreaux
+
+       - {CRD:Marketing_Assistant} -
+       Wanda Flathers
+
+       - {CRD:Manual} -
+       Stephen Honeywell
+
+       - {CRD:PackagePhotography} -
+       Francis George
+
+
+
+       {CRD_TTL:SUPPORT}
+
+       - {CRD:Operations_Manager} -
+       Shawn Ellis
+
+       - {CRD:MIS_Manager} -
+       Wayne Hall
+
+       - {CRD:MIS_Technicians} -
+       Glenn Burtis
+       Mick Love
+
+       - {CRD:HumanResourcesOfficeManager} -
+       Christine Lundgren
+
+       - {CRD:Administrative_Assistance} -
+       Tanya Pereira
+       Crystal Tucker
+
+       - {CRD:Legal_Assistance} -
+       Jennifer Hoge
+
+
+
+       - {CRD:Special_Thanks} -
+       Brett Sperry
+       Louis Castle
+       Steve Wetherill
+       Bing Gordon
+       Luc Barthelet
+       Harvard Bonin
+
+
+
+       {CRD_TTL:WS_LOCALIZATION}
+
+       - {CRD:Director_of_Localization} -
+       Thilo Huebner
+
+
+
+       {CRD_TTL:WORLDWIDE_LOCALIZATON}
+
+
+       {CRD_TTL:KOREA}
+
+       - {CRD:Localization_Manager} -
+       Chan Park
+
+       - {CRD:Localization_Engineers} -
+       Justine Kim
+       Andrew Kim
+
+       - {CRD:Translations} -
+       Justine Kim
+       Chan Park
+
+       - {CRD:RecordingEditingStudio} -
+       Junco MultiMedia Studio
+
+       - {CRD:Recording_Engineer} -
+       Yeajun Hwang
+
+       - {CRD:DeptGeneralManager} -
+       Jungwon Hwang
+
+       - {CRD:Marketing_Manager} -
+       Michel Kim
+
+       - {CRD:Product_Manager} -
+       Richard Kwon
+
+       - {CRD:Voice_Actors} -
+       Jungmi Bae
+       Myunghwa Cha
+       Sujung Ham
+       Gwang Chang
+       Haemoo Yuh
+       Wankyung Seong
+       Hobi Chang
+       Inseong Oh
+       Dongkyun Yuh
+       Yunghee Byun
+       Hoseop Won
+       Jangwon Lee
+       Yongjun Jeon
+       Kwongjae Seo
+       Yunseok Seo
+       Sujoong Kim
+
+       - {CRD:BalancingTesters} -
+       Changhwan Kim
+       Jooyeon Choi
+       Sooil Park
+       Jeongwhan Oh 
+
+
+       {CRD_TTL:CHINA}
+
+       - {CRD:LocalizationProjectManager} -
+       Christine Kong
+
+       - {CRD:Localization_Manager} -
+       Jerry Lee
+
+       - {CRD:Localization_Engineer} -
+       Maxwell Peng
+
+       - {CRD:Translations} -
+       Edward Hsu
+
+
+       {CRD_TTL:EUROPEANLOCALIZATION}
+
+       - {CRD:SoftwareLocalizationManager} -
+       Sam Yazmadjian
+
+       - {CRD:AudioManager} -
+       David Lapp
+
+       - {CRD:ProjectManager} -
+       Nathalie Fernandez
+
+       - {CRD:CQCSupervisor} -
+       Linda Walker
+
+
+       {CRD_TTL:FRANCE}
+
+       - {CRD:ProductLocalizationManager} -
+       Christine Jean
+
+       - {CRD:Translation_coordinator} -
+       Nathalie Duret
+
+       - {CRD:Translators} -
+       Around the Word
+
+       - {CRD:Test_Coordinator} -
+       Lionel Berrodier
+
+       - {CRD:Tester} -
+       Emmanuel Delva
+
+       - {CRD:RecordingEditingStudio} -
+       Lotus Rose, Paris
+
+       - {CRD:Voice_Actors} -
+       Marc Saez
+       Martial Le Minoux
+       Françoise Cadol
+       Sophie Riffont
+       Gilbert Lévy
+       Céline Mauge
+       Hervé Caradec
+       Gérard Dessalles
+       Michel Castelain
+       Xavier Fagnon
+       Jean Barney
+       Florence Dumortier
+       Serge Thiriet
+       Denis Boileau
+
+       - {CRD:Marketing_Manager} -
+       Christophe Maridet
+
+       - {CRD:Product_Manager} -
+       Raphaele Martinon
+
+
+       {CRD_TTL:GERMANY}
+
+       - {CRD:ProductLocalizationManager} -
+       Michaela Bartelt
+
+       - {CRD:Translation_coordinator} -
+       Bettina Bachon
+
+       - {CRD:Translators} -
+       Rolf D. Busch
+
+       - {CRD:Test_Coordinator} -
+       Dirk Vojtilo
+
+       - {CRD:Tester} -
+       Marco Nuhsbaum
+
+       - {CRD:RecordingEditingStudio} -
+       Toneworx, Hamburg
+
+       - {CRD:Voice_Actors} -
+       Udo Kier
+       Marianne Bernhardt
+       Sven Dahlem
+       Till Demtröder
+       Klaus Dittmann
+       Eva Freese
+       Boris Freytag
+       Clemens Gerhard
+       Jörg Gillner
+       Eberhard Haar
+       Stefan Hartmann
+       Verena Herkewitz
+       Gerhart Hinze
+       Iris Immenkamp
+       Rolf Jühlich
+       Matthias Klimsa
+       Volkert Kraeft
+       Holger Mahlich
+       Martin May
+       Robert Missler
+       Joshy Peters
+       Uli Plessmann
+       Wolf Rahtjen
+       Eric Schäffler
+       Hans Sievers
+       Kathrin Spielvogel
+       Bernd Stephan
+
+       - {CRD:Product_Manager} -
+       Pete Larsen
+
+       - {CRD:Public_Relations} -
+       Raoul Birkhold
+
+
+       {CRD:greeting2}
+       {CRD:greeting3}
+       {CRD:greeting4}
+
+       Richard, Heike, Heidl, Honey, Schatzi, {CRD:and} Alex Hasenauer
+       Kathleen Mast
+       Susan Campbell
+       Julie, Christopher, {CRD:and} William Hight
+       Becca de Boo
+       Travis, Andy, Kathy, John, Jon, Charles, {CRD:ToddWilliams}
+       Kristen {CRD:and} Zachary Booth
+       Tawny Pham {CRD:JasonZirpolo}
+       Terri, Jackie, Pepper, {CRD:and} Abby Lee
+       {CRD:MikeJones}
+       Kim, So'n So {CRD:and} Addie Rolfs
+       Shannon, Audrey, {CRD:FrankHsu}
+       Lori Niwa, Nana {CRD:symboland} Gramps, Broom {CRD:symboland} Pumpkin, Auntie Pack {CRD:symboland} Carole, Eh Ben!
+       Robin, Beth {CRD:and} Josh Brown.
+       {CRD:BryanWiegele1} Mike, Jenn, Otter {CRD:BryanWiegele2} Don
+       {CRD:Julio}
+       Simona Rovnanova
+       {CRD:Julie}, Jerry Bennett
+       Laura, Ben, Jack {CRD:and} baby Sam
+       Gerry, Estella {CRD:and} William Huybregts
+       Melissa, Mocha Blasts, the Pizza Bakery {CRD:pilot}
+       Adam {CRD:and} Christina Fries
+       Gary, Martha, {CRD:and} Nanette Taylor, Teresa, Jay, Eddie, Wash, Ken, Bruce {CRD:and} Juba
+       Stephanie Chagollán, Margaret Mejia, Dave Mejia, Erin Tseu, {CRD:and} Ender
+       Kelly, Lizz, John, Rachel and Katy
+       Jennifer Robb
+
+
+
+
+       {CRD:greeting5}
+
+

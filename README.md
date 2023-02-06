@@ -6,13 +6,17 @@
 
 [> 文本 CSF 翻译和校对在外部网站 <](https://weblate.usvcs.cn/projects/redalert2_yr_chs/)
 
-| 目录        | 说明                                          |
-| ----------- | --------------------------------------------- |
-| audio_inBAG | 已汉化的，存储在 Audio Bag 包中的音频文件目录 |
-| audio_inMIX | 已汉化的，存储在 Audio Mix 包中的音频文件目录 |
-| bik         | 已汉化的，存储在 Language MIX 包中的视频      |
-| cameo       | 已汉化的，存储在 Cameo MIX 包中的图标         |
-| movie       | 已汉化的，存储在 Moives MIX 包中的过场动画    |
+| 目录        | 说明                 |
+| ----------- | -------------------- |
+| audio_inBAG | 音频文件(存放在 bag) |
+| audio_inMIX | 音频文件(存放在 mix) |
+| bik         | Logo 和主菜单动画    |
+| cameo       | 单位图标             |
+| movie       | 过场动画             |
+| fnt         | 带有简体字的字库     |
+| shp         | 游戏图像             |
+| credits     | 制作人员名单         |
+| \_src_files | 原版繁体翻译文件     |
 
 自动化构建使用了以下库，特表感谢
 

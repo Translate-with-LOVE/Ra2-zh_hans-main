@@ -1,0 +1,14 @@
+{
+  "name": "pack-audio-bags",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ra2-audio-bag-editor": "github:iamapig120/ra2-audio-bag-editor"
+  }
+}
