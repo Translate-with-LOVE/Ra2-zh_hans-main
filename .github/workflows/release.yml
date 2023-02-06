@@ -66,4 +66,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
         with:
           files: |
-            "RedAlert2-LanguagePack-ChineseSimplified.zip"
+            "./RedAlert2-LanguagePack-ChineseSimplified.zip"
