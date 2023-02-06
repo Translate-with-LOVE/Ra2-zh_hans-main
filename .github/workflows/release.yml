@@ -5,9 +5,8 @@ on:
   # release:
   #   types: [published]
 jobs:
-
-  download-csf-files-and-covent:
-
+  pack-all-files:
+    name: Build & Pack Language Pack
     runs-on: windows-2022
     steps:
       - name: Checkout Repository
@@ -28,7 +27,7 @@ jobs:
           git clone https://github.com/askeladdk/ccmixar.git
           cd ccmixar
           go build
-      -name: Pack audio.mix & audiomd.mix
+      - name: Pack audio.mix & audiomd.mix
         run: |
           cd ccmixar
           ccmixar.exe -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
@@ -42,5 +41,3 @@ jobs:
           files: |
             "./_src_files/language/audio.mix"
             "./_src_files/langmd/audiomd.mix"
-
-
