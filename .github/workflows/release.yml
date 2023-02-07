@@ -1,7 +1,7 @@
 name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
-  push
+  push:
   release:
     types: [published]
 jobs:
