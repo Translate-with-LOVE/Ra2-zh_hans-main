@@ -1,7 +1,6 @@
 name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
-  #[push]
   release:
     types: [published]
 jobs:
@@ -56,6 +55,8 @@ jobs:
         shell: pwsh
       - name: Zip langeuage pack
         run: |
+          Copy-Item "./_src_files/taunts/*" -Destination "./Taunts/" -Force
+          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" \Taunts\*
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" .\subtitle\*
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" language.mix
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" langmd.mix
