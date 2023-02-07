@@ -58,7 +58,7 @@ jobs:
         run: |
           mkdir "Taunts"
           Copy-Item "./_src_files/taunts/*" -Destination "./Taunts/" -Force
-          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" \Taunts\*
+          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" Taunts\
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" .\subtitle\*
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" language.mix
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" langmd.mix
@@ -73,7 +73,7 @@ jobs:
       - name: Upload files to artifact
         uses: actions/upload-artifact@v3
         with:
-          name: LanguagePack-ChineseSimplified.zip
+          name: LanguagePack-ChineseSimplified
           path: RedAlert2-LanguagePack-ChineseSimplified.zip
           retention-days: 14
           
