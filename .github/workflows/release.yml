@@ -1,11 +1,9 @@
 name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
-  - 
-    push
-  - 
-    release:
-      types: [published]
+  - push
+  - release:
+    types: [published]
 jobs:
   pack-all-files:
     name: Build & Pack Language Pack
