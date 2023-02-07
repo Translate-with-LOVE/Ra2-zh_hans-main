@@ -546,6 +546,43 @@
        {CRD_TTL:WORLDWIDE_LOCALIZATON}
 
 
+       {CRD_TTL:CHINA}
+
+       - {CRD:LocalizationProjectManager} -
+       Handle
+
+       - {CRD:Translations} -
+       Suntory sugar-free black oolong tea
+       Yel_Liadolne
+       Lwyyyyyyy
+       Handle
+
+       - {CRD:Programmers} -
+       Handle
+       UnrealShadow
+
+       - {CRD:MIS_Technicians} -
+       UnrealShadow
+
+       - {CRD:Graphic_Designer} -
+       Handle
+       LH_Mouse
+
+       - {CRD:Language_Testing} -
+       Minecraft Mailbox
+
+       - {CRD:Voice_Actors} -
+       Different Lao Zhao
+       Conscript Freeman
+
+       - {CRD:Special_Thanks} -
+       Alai XL
+       LaurentLewis
+       STARSHADOW
+
+
+
+
        {CRD_TTL:KOREA}
 
        - {CRD:Localization_Manager} -
@@ -574,7 +611,7 @@
 
 
 
-       {CRD_TTL:CHINA}
+       {CRD_TTL:TAIWAN}
 
        - {CRD:LocalizationProjectManager} -
        Christine Kong
