@@ -556,6 +556,7 @@
        Yel_Liadolne
        Lwyyyyyyy
        Handle
+       Conscript Freeman
 
        - {CRD:Programmers} -
        Handle
