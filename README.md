@@ -10,6 +10,7 @@
 | ----------- | -------------------- |
 | audio_inBAG | 音频文件(存放在 bag) |
 | audio_inMIX | 音频文件(存放在 mix) |
+| taunt       | 音频文件(嘲讽)       |
 | bik         | Logo 和主菜单动画    |
 | cameo       | 单位图标             |
 | movie       | 过场动画             |
