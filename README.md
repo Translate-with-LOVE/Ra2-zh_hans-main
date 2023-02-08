@@ -29,3 +29,8 @@
 | [SadPencil/Ra2CsfFile](https://github.com/SadPencil/Ra2CsfFile) | MIT  |
 | [rochars/wavefile](https://github.com/rochars/wavefile)         | MIT  |
 | [askeladdk/ccmixar](https://github.com/askeladdk/ccmixar)       | ISC  |
+
+### 赞助
+
+非常感谢您的兴趣，现已开通爱发电豪华午餐以便您提供赞助
+[https://afdian.net/a/handle](https://afdian.net/a/handle)
