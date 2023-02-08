@@ -42,17 +42,17 @@ fs.writeFileSync(
   audioPackageRa2.getBagFile()
 )
 console.log('Ra2 audio.bag Packed.')
-fs.readFileSync(
+fs.writeFileSync(
   path.join(rootDir, '_src_files/audio/audio.idx'),
   audioPackageRa2.getIdxFile()
 )
 console.log('Ra2 audio.idx Packed.')
-fs.readFileSync(
+fs.writeFileSync(
   path.join(rootDir, '_src_files/audiomd/audio.bag'),
   audioPackageYR.getBagFile()
 )
 console.log('YR audio.bag Packed.')
-fs.readFileSync(
+fs.writeFileSync(
   path.join(rootDir, '_src_files/audiomd/audio.idx'),
   audioPackageYR.getIdxFile()
 )
