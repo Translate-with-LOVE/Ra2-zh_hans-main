@@ -25,6 +25,7 @@ jobs:
           npm i
           node index.js
       - name: Pack other chinese audios to mix folders
+        run: |
           Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
           Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
       - name: Download & build ccmixar
