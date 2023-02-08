@@ -19,11 +19,14 @@ jobs:
           ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
           Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
           Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
-      - name: Pack chinese audio to bag files
+      - name: Pack chinese audios into bag files
         run: |
           cd ./.github/scripts/pack-audio-bags
           npm i
           node index.js
+      - name: Pack other chinese audios to mix folders
+          Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
+          Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
       - name: Download & build ccmixar
         run: |
           git clone https://github.com/askeladdk/ccmixar.git
@@ -38,7 +41,7 @@ jobs:
       - name: Copy & pack cameo files
         run: |
           Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameo/" -Force
-          Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameomd/" -Force
+          Copy-Item "./cameo/yr/*" -Destination "./_src_files/cameomd/" -Force
           ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/cameo.mix" -checksum -encrypt
           ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/cameomd.mix" -checksum -encrypt
         shell: pwsh
