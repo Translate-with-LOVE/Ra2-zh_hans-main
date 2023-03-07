@@ -32,6 +32,7 @@ jobs:
         run: |
           git clone https://github.com/askeladdk/ccmixar.git
           cd ccmixar
+          go mod download golang.org/x/net
           go build
       - name: Pack audio.mix & audiomd.mix
         run: |
