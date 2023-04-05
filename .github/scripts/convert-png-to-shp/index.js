@@ -19,16 +19,12 @@ const parseACT = (file) => {
   const data = fs.readFileSync(file)
   //遍历每个字节，每三个字节代表一个颜色值（RGB）
   for (let i = 0; i < data.length; i += 3) {
-    //获取当前字节的十六进制表示
-    let r = data[i].toString(16)
-    let g = data[i + 1].toString(16)
-    let b = data[i + 2].toString(16)
-    //如果长度不足两位，补零
-    if (r.length < 2) r = '0' + r
-    if (g.length < 2) g = '0' + g
-    if (b.length < 2) b = '0' + b
-    //拼接成一个完整的颜色值，以#开头
-    let color = '#' + r + g + b
+    //获取当前字节
+    let r = data[i]
+    let g = data[i + 1]
+    let b = data[i + 2]
+    //拼接成一个完整的颜色值，[r,g,b]
+    let color = [r, g, b]
     //将颜色值添加到数组中
     colors.push(color)
   }
@@ -45,16 +41,12 @@ const getShpBin = async (fileName) => {
     const imgData = ctx.getImageData(0, 0, 60, 48)
     const imgDataRGB = []
     for (let i = 0; i < imgData.data.length; i += 4) {
-      //获取当前字节的十六进制表示
-      let r = imgData.data[i].toString(16)
-      let g = imgData.data[i + 1].toString(16)
-      let b = imgData.data[i + 2].toString(16)
-      //如果长度不足两位，补零
-      if (r.length < 2) r = '0' + r
-      if (g.length < 2) g = '0' + g
-      if (b.length < 2) b = '0' + b
-      //拼接成一个完整的颜色值，以#开头
-      let color = '#' + r + g + b
+      //获取当前字节
+      let r = imgData.data[i]
+      let g = imgData.data[i + 1]
+      let b = imgData.data[i + 2]
+      //拼接成一个完整的颜色值，[r,g,b]
+      let color = [r, g, b]
       //将颜色值添加到数组中
       imgDataRGB.push(color)
     }
@@ -64,7 +56,7 @@ const getShpBin = async (fileName) => {
     let minDeltaE = 101
     let acTindex = -1
     for (let i = 0; i < 255; i++) {
-      let res = deltaE(actRGB[i], pixelRGB)
+      let res = deltaE(actRGB[i], pixelRGB, 'rgb')
       if (res < minDeltaE) {
         minDeltaE = res
         acTindex = i
@@ -117,7 +109,11 @@ const getShpBin = async (fileName) => {
       await getShpBin(path.join(rootDir, 'cameo/ra2', fileName))
     )
     console.clear()
-    console.log("Ra2 Cameos converted: %d , total %d.", i + 1, ra2ChsCameoList.length)
+    console.log(
+      'Ra2 Cameos converted: %d , total %d.',
+      i + 1,
+      ra2ChsCameoList.length
+    )
   }
 
   for (let i = 0; i < yrChsCameoList.length; i++) {
@@ -131,6 +127,10 @@ const getShpBin = async (fileName) => {
       await getShpBin(path.join(rootDir, 'cameo/yr', fileName))
     )
     console.clear()
-    console.log("YR Cameos converted: %d , total %d.", i + 1, ra2ChsCameoList.length)
+    console.log(
+      'YR Cameos converted: %d , total %d.',
+      i + 1,
+      ra2ChsCameoList.length
+    )
   }
 })()
