@@ -40,10 +40,15 @@ jobs:
           ./ccmixar.exe pack -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
           ./ccmixar.exe pack -game ra2 -dir "../_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
         shell: pwsh
+      - name: Convert cameo to shp files
+        run: |
+          cd ./.github/scripts/convert-png-to-shp
+          npm i
+          node index.js
       - name: Copy & pack cameo files
         run: |
-          Copy-Item "./cameo/ra2/*" -Destination "./_src_files/cameo/" -Force
-          Copy-Item "./cameo/yr/*" -Destination "./_src_files/cameomd/" -Force
+          Copy-Item "./cameo/ra2/*.shp" -Destination "./_src_files/cameo/" -Force
+          Copy-Item "./cameo/yr/*.shp" -Destination "./_src_files/cameomd/" -Force
           ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/cameo.mix" -checksum -encrypt
           ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/cameomd.mix" -checksum -encrypt
         shell: pwsh
