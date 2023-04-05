@@ -130,7 +130,7 @@ const getShpBin = async (fileName) => {
     console.log(
       'YR Cameos converted: %d , total %d.',
       i + 1,
-      ra2ChsCameoList.length
+      yrChsCameoList.length
     )
   }
 })()
