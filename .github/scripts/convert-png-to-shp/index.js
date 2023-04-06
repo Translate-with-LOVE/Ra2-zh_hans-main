@@ -8,6 +8,8 @@ const path = require('path')
 
 const rootDir = path.resolve('../../../')
 
+const rainbowSheet = {}
+
 /**
  * 定义一个lambda函数，接受一个act文件的路径作为参数，返回一个Promise对象
  * @param {string} file 文件名
@@ -47,12 +49,17 @@ const getShpBin = async (fileName) => {
       let b = imgData.data[i + 2]
       //拼接成一个完整的颜色值，[r,g,b]
       let color = [r, g, b]
+      //添加颜色到彩虹表中
+      rainbowSheet[(r << 16) | (g << 8) | b] = i
       //将颜色值添加到数组中
       imgDataRGB.push(color)
     }
     return imgDataRGB
   })
-  const indexedMap = imgRGB.map((pixelRGB) => {
+  const indexedMap = imgRGB.map(([r, g, b] = pixelRGB) => {
+    if (rainbowSheet[(r << 16) | (g << 8) | b] !== undefined) {
+      return rainbowSheet[(r << 16) | (g << 8) | b]
+    }
     let minDeltaE = 101
     let acTindex = -1
     for (let i = 0; i < 255; i++) {
@@ -62,6 +69,8 @@ const getShpBin = async (fileName) => {
         acTindex = i
       }
     }
+    //添加颜色到彩虹表中
+    rainbowSheet[(r << 16) | (g << 8) | b] = acTindex
     return acTindex
   })
   const buff = new ArrayBuffer(0x08 + 0x18 + 0x3c * 0x30)
