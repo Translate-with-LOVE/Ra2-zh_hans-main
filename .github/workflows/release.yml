@@ -95,7 +95,7 @@ jobs:
         with:
           key-id: ${{ secrets.OSS_KEY_ID }}
           key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          endpoint: oss-cn-shanghai
+          region: oss-cn-shanghai
           bucket: ra2-chs-pack
           assets: |
             RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-commit.zip
@@ -105,7 +105,7 @@ jobs:
         with:
           key-id: ${{ secrets.OSS_KEY_ID }}
           key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          endpoint: oss-cn-shanghai
+          region: oss-cn-shanghai
           bucket: ra2-chs-pack
           assets: |
             RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-release.zip
