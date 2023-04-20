@@ -26,7 +26,7 @@ const parseACT = (file) => {
     let g = data[i + 1]
     let b = data[i + 2]
     //添加颜色到彩虹表中
-    rainbowSheet[(r << 16) | (g << 8) | b] = i
+    rainbowSheet[(r << 16) | (g << 8) | b] = i / 3
     //拼接成一个完整的颜色值，[r,g,b]
     let color = [r, g, b]
     //将颜色值添加到数组中
