@@ -25,6 +25,8 @@ const parseACT = (file) => {
     let r = data[i]
     let g = data[i + 1]
     let b = data[i + 2]
+    //添加颜色到彩虹表中
+    rainbowSheet[(r << 16) | (g << 8) | b] = i
     //拼接成一个完整的颜色值，[r,g,b]
     let color = [r, g, b]
     //将颜色值添加到数组中
@@ -49,14 +51,13 @@ const getShpBin = async (fileName) => {
       let b = imgData.data[i + 2]
       //拼接成一个完整的颜色值，[r,g,b]
       let color = [r, g, b]
-      //添加颜色到彩虹表中
-      rainbowSheet[(r << 16) | (g << 8) | b] = i
       //将颜色值添加到数组中
       imgDataRGB.push(color)
     }
     return imgDataRGB
   })
   const indexedMap = imgRGB.map(([r, g, b] = pixelRGB) => {
+    // 如果彩虹表已有值，取出
     if (rainbowSheet[(r << 16) | (g << 8) | b] !== undefined) {
       return rainbowSheet[(r << 16) | (g << 8) | b]
     }
