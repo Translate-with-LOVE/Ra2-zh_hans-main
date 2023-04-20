@@ -56,7 +56,7 @@ const getShpBin = async (fileName) => {
     }
     return imgDataRGB
   })
-  const indexedMap = imgRGB.map(([r, g, b] = pixelRGB) => {
+  const indexedMap = imgRGB.map(([r, g, b]) => {
     // 如果彩虹表已有值，取出
     if (rainbowSheet[(r << 16) | (g << 8) | b] !== undefined) {
       return rainbowSheet[(r << 16) | (g << 8) | b]
@@ -64,7 +64,7 @@ const getShpBin = async (fileName) => {
     let minDeltaE = 101
     let acTindex = -1
     for (let i = 0; i < 255; i++) {
-      let res = deltaE(actRGB[i], pixelRGB, 'rgb')
+      let res = deltaE(actRGB[i], [r, g, b], 'rgb')
       if (res < minDeltaE) {
         minDeltaE = res
         acTindex = i
