@@ -11,7 +11,7 @@ const rootDir = path.resolve('../../../')
 const rainbowSheet = {}
 
 /**
- * 定义一个lambda函数，接受一个act文件的路径作为参数，返回一个Promise对象
+ * 定义一个lambda函数，接受一个act文件的路径作为参数，返回颜色表
  * @param {string} file 文件名
  */
 const parseACT = (file) => {
