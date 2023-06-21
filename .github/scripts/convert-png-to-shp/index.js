@@ -4,11 +4,31 @@
 const fs = require('fs')
 const { createCanvas, loadImage } = require('canvas')
 const { deltaE } = require('color-delta-e')
+const BDF = require('bdfjs')
 const path = require('path')
 
 const rootDir = path.resolve('../../../')
 
 const rainbowSheet = {}
+
+const fontFileName_ch = 'zpix-9.bdf'
+const fontFileName_en = 'zpix-8.bdf'
+/** @type {{ch:BDF.Font,en:BDF.Font}} */
+const fonts = {
+  ch: BDF.parse(fs.readFileSync(fontFileName_ch).toString('utf-8')),
+  en: BDF.parse(fs.readFileSync(fontFileName_en).toString('utf-8')),
+}
+
+/** @type {{[x:string]:string}} */
+const fileTitleMap = {}
+
+const titleMapFile = fs
+  .readFileSync(path.join(rootDir, '/cameo', '/titleMap.csv'))
+  .toString('utf-8')
+titleMapFile.split('\n').forEach((line) => {
+  const lineArray = line.split(',')
+  fileTitleMap[lineArray[0]] = lineArray[1]
+})
 
 /**
  * 定义一个lambda函数，接受一个act文件的路径作为参数，返回颜色表
@@ -37,11 +57,152 @@ const parseACT = (file) => {
 
 const actRGB = parseACT('cameo.act')
 
+const canvas = createCanvas(60, 48)
+const ctx = canvas.getContext('2d', { willReadFrequently: true })
+const canvasForText = createCanvas(1024, 48)
+const textCtx = canvasForText.getContext('2d', {
+  willReadFrequently: true,
+})
+const canvasForTextTop = createCanvas(1024, 48)
+const textCtxTop = canvasForTextTop.getContext('2d', {
+  willReadFrequently: true,
+})
+
+/** @type {number[]} */
+let textLineTotalWidth = []
+const lineHeight = 9
+/** @type {string[]} */
+let titleLines = []
+
+const colorMap = {
+  0: '#FFFFFF',
+  1: '#FFFFFF',
+  2: '#FFFFFF',
+  3: '#FFFFFF',
+  4: '#f4f4f4',
+  5: '#d4d4d4',
+  6: '#acacac',
+  7: '#a4a4a4',
+}
+
 const getShpBin = async (fileName) => {
-  const canvas = createCanvas(60, 48)
-  const ctx = canvas.getContext('2d', { alpha: false })
+  ctx.clearRect(0, 0, 60, 48)
+  textCtx.clearRect(0, 0, 1024, 48)
+  textCtxTop.clearRect(0, 0, 1024, 48)
+
+  const basename = path.basename(fileName, path.extname(fileName))
+  let printTitle = false
+  if (fileTitleMap[basename]) {
+    printTitle = true
+    titleLines = fileTitleMap[basename].split('\n')
+    textLineTotalWidth = new Array(titleLines.length).fill(0)
+
+    // 逐行绘制文字
+    titleLines.forEach((line, lineIndex) => {
+      Array.prototype.forEach.call(line, (unitChar, index) => {
+        textCtx.fillStyle = '#000000'
+        // textCtx.clearRect(0, 0, 8, 8)
+        // textCtx.fillText(unitChar, 0, 7)
+        const unicode = unitChar.charCodeAt(0)
+        /** @type {BDF.Font} */
+        let font
+        if (unicode <= 0x80) {
+          font = fonts.en
+        } else {
+          font = fonts.ch
+        }
+
+        const bitmap = BDF.draw(font, unitChar)
+        const width = bitmap.width
+        const height = bitmap.height
+        // console.log(bitmap)
+
+        const textImgData = textCtx.createImageData(10, 10)
+        for (let y = 0; y < height; y++) {
+          const row = bitmap[y]
+          for (let x = 0; x < width; x++) {
+            const pix = row[x]
+            textImgData.data[(y * 10 + x) * 4] = 0
+            textImgData.data[(y * 10 + x) * 4 + 1] = 0
+            textImgData.data[(y * 10 + x) * 4 + 2] = 0
+            if (pix == 1) {
+              textImgData.data[(y * 10 + x) * 4 + 3] = 255
+            } else {
+              textImgData.data[(y * 10 + x) * 4 + 3] = 0
+            }
+          }
+        }
+
+        textCtx.putImageData(
+          textImgData,
+          textLineTotalWidth[lineIndex],
+          lineIndex * lineHeight
+        )
+
+        textLineTotalWidth[lineIndex] += width
+
+        if (index < line.length - 1) {
+          if (unicode <= 0x80) {
+            textLineTotalWidth[lineIndex] += 2
+          } else {
+            if (line.length == 2) {
+              textLineTotalWidth[lineIndex] += 4
+            } else {
+              textLineTotalWidth[lineIndex] += 1
+            }
+          }
+          if (line.length >= 6) {
+            textLineTotalWidth[lineIndex] -= 1
+          }
+        }
+      })
+    })
+
+    //然后绘制白色字
+    for (let y = 0; y < Math.min(lineHeight * titleLines.length - 1, 48); y++) {
+      textCtxTop.fillStyle =
+        colorMap[y - lineHeight * titleLines.length + lineHeight] || colorMap[0]
+      for (let x = 0; x < Math.max(...textLineTotalWidth); x++) {
+        const [r, g, b, a] = textCtx.getImageData(x, y, 1, 1).data
+        if (a === 255) {
+          textCtxTop.fillRect(x, y, 1, 1)
+        }
+      }
+    }
+  }
   const imgRGB = await loadImage(fileName).then((image) => {
     ctx.drawImage(image, 0, 0, 60, 48)
+    if (printTitle) {
+      // 绘制文字
+      const startY = 48 - titleLines.length * lineHeight
+      for (let i = 0; i < titleLines.length; i++) {
+        // 画文字阴影
+        ctx.drawImage(
+          canvasForText,
+          0,
+          i * lineHeight,
+          1024,
+          lineHeight,
+          Math.ceil(30 - textLineTotalWidth[i] / 2) + 1,
+          startY + i * lineHeight,
+          1024,
+          lineHeight
+        )
+
+        // 画文字渐变色
+        ctx.drawImage(
+          canvasForTextTop,
+          0,
+          i * lineHeight,
+          1024,
+          lineHeight,
+          Math.ceil(30 - textLineTotalWidth[i] / 2),
+          startY + i * lineHeight,
+          1024,
+          lineHeight
+        )
+      }
+    }
     const imgData = ctx.getImageData(0, 0, 60, 48)
     const imgDataRGB = []
     for (let i = 0; i < imgData.data.length; i += 4) {
@@ -105,8 +266,16 @@ const getShpBin = async (fileName) => {
 }
 
 ;(async () => {
-  const ra2ChsCameoList = fs.readdirSync(path.join(rootDir, 'cameo/ra2'))
-  const yrChsCameoList = fs.readdirSync(path.join(rootDir, 'cameo/yr'))
+  const ra2ChsCameoList = fs
+    .readdirSync(path.join(rootDir, 'cameo/ra2'))
+    .filter((str) => {
+      return str.endsWith('.png')
+    })
+  const yrChsCameoList = fs
+    .readdirSync(path.join(rootDir, 'cameo/yr'))
+    .filter((str) => {
+      return str.endsWith('.png')
+    })
 
   for (let i = 0; i < ra2ChsCameoList.length; i++) {
     const fileName = ra2ChsCameoList[i]

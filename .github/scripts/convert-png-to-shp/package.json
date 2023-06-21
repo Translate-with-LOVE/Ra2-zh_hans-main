@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bdfjs": "^0.0.8",
     "canvas": "^2.11.2",
     "color-delta-e": "^1.1.2"
   }
