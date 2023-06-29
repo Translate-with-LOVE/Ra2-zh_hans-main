@@ -30,8 +30,8 @@ jobs:
           Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
       - name: Pack audio.mix & audiomd.mix
         run: |
-          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
-          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "../_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audio" -mix "../_src_files/language/audio.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
         shell: pwsh
       - name: Convert cameo to shp files
         run: |
