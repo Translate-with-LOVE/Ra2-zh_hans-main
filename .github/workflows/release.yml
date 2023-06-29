@@ -28,17 +28,10 @@ jobs:
         run: |
           Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
           Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
-      - name: Download & build ccmixar
-        run: |
-          git clone https://github.com/iamapig120/ccmixar.git
-          cd ccmixar
-          go mod download golang.org/x/net
-          go build
       - name: Pack audio.mix & audiomd.mix
         run: |
-          cd ccmixar
-          ./ccmixar.exe pack -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
-          ./ccmixar.exe pack -game ra2 -dir "../_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "../_src_files/audio" -mix "../_src_files/language/audio.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "../_src_files/audiomd" -mix "../_src_files/langmd/audiomd.mix"
         shell: pwsh
       - name: Convert cameo to shp files
         run: |
@@ -49,8 +42,8 @@ jobs:
         run: |
           Copy-Item "./cameo/ra2/*.shp" -Destination "./_src_files/cameo/" -Force
           Copy-Item "./cameo/yr/*.shp" -Destination "./_src_files/cameomd/" -Force
-          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/cameo.mix" -checksum -encrypt
-          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/cameomd.mix" -checksum -encrypt
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/cameo.mix" -checksum -encrypt
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/cameomd.mix" -checksum -encrypt
         shell: pwsh
       - name: Copy there files cameo files
         run: |
@@ -63,8 +56,8 @@ jobs:
         shell: pwsh
       - name: Pack langeuage pack mix files
         run: |
-          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/language" -mix "./language.mix" -checksum -encrypt
-          ./ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/langmd" -mix "./langmd.mix" -checksum
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/language" -mix "./language.mix" -checksum -encrypt
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/langmd" -mix "./langmd.mix" -checksum
         shell: pwsh
       - name: Zip langeuage pack
         run: |
