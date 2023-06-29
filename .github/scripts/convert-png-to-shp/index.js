@@ -94,7 +94,9 @@ const getShpBin = async (fileName) => {
   let printTitle = false
   if (fileTitleMap[basename]) {
     printTitle = true
-    titleLines = fileTitleMap[basename].split('\n')
+    titleLines = fileTitleMap[basename]
+      .split('\n')
+      .map((name) => name.split('\r')[0])
     textLineTotalWidth = new Array(titleLines.length).fill(0)
 
     // 逐行绘制文字
