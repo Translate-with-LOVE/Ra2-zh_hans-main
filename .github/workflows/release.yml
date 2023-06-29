@@ -30,7 +30,7 @@ jobs:
           Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
       - name: Download & build ccmixar
         run: |
-          git clone https://github.com/askeladdk/ccmixar.git
+          git clone https://github.com/iamapig120/ccmixar.git
           cd ccmixar
           go mod download golang.org/x/net
           go build
