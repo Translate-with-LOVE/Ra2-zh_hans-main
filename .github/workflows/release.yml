@@ -14,7 +14,7 @@ jobs:
       - name: Download latest csf translate file in INI format
         run: ./.github/scripts/download_latest_csf.cmd
         shell: cmd
-      - name: Covent format to csf
+      # - name: Covent format to csf
         # run: |
         #   ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
         #   Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
