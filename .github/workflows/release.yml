@@ -15,10 +15,10 @@ jobs:
         run: ./.github/scripts/download_latest_csf.cmd
         shell: cmd
       - name: Covent format to csf
-        run: |
-          ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
-          Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
-          Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
+        # run: |
+        #   ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
+        #   Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
+        #   Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
       - name: Pack chinese audios into bag files
         run: |
           cd ./.github/scripts/pack-audio-bags
