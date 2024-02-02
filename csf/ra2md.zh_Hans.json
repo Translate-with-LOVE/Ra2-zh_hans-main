@@ -3096,7 +3096,7 @@
         "Value": "Westwood Online"
     },
     "GUI:WelcomeRA2Online": {
-        "Value": "欢迎到尤里的复仇线上"
+        "Value": "欢迎来到尤里的复仇在线"
     },
     "GUI:QuickMatch": {
         "Value": "快速配对竞赛"
@@ -4095,19 +4095,19 @@
         "Value": "您必须是频道操作者才能执行此动作。"
     },
     "TXT_NOSQUAD": {
-        "Value": "您并未在尤里的复仇的小组中。"
+        "Value": "您尚未加入尤里的复仇的小队。"
     },
     "TXT_LAUNCHBROWSER": {
-        "Value": "启动网络浏览器以浏览此网站？"
+        "Value": "您是否希望启动网络浏览器来访问该页面？"
     },
     "TXT_NOBROWSER": {
-        "Value": "您没有与 HTML 档案格式关连的网络浏览器。"
+        "Value": "您没有和 HTML 文件格式关连的网络浏览器。"
     },
     "TXT_BAD_CHANNAME": {
-        "Value": "您无法开启使用此名称的频道。请尝试将空白和其他标点移除。"
+        "Value": "您无法用这个名称来开启频道。请尝试将移除空格和其他标点移除。"
     },
     "TXT_BAD_CHANKEY": {
-        "Value": "您无法用这个密码开启频道。请尝试将空白和其他标点移除。"
+        "Value": "您无法用这个密码开启频道。请尝试将空格和其他标点移除。"
     },
     "TXT_CANTCREATE_CHAN": {
         "Value": "您无法开启此频道。"
@@ -4176,16 +4176,16 @@
         "Value": "您确定要重新设置快捷键配置吗？"
     },
     "TXT_DSOUND_CANT_CREATE": {
-        "Value": "警告 - 无法创造 Direct Sound 物件。"
+        "Value": "警告 - 无法创建 Direct Sound 对象。"
     },
     "TXT_DSOUND_NO_COOP": {
         "Value": "警告 - 无法设置 Direct Sound 合作等级。"
     },
     "TXT_DSOUND_NO_PRIMARY": {
-        "Value": "警告 - 无法创造 Direct Sound 主缓冲区。"
+        "Value": "警告 - 无法创建 Direct Sound 主缓冲区。"
     },
     "TXT_DSOUND_INCOMPAT": {
-        "Value": "警告 - 您的声卡未达本产品的音效需求。"
+        "Value": "警告 - 您的声卡没有达到本产品的音效需求。"
     },
     "TXT_JANUARY": {
         "Value": "一月"
@@ -4224,19 +4224,19 @@
         "Value": "十二月"
     },
     "TXT_RELEASE_THE_HOUNDS": {
-        "Value": "释出"
+        "Value": "发布"
     },
     "TXT_RECONNECT_HELP1": {
-        "Value": "点选名称，提议将玩家自游戏中移除。"
+        "Value": "点选名称，提议从游戏中踢出该玩家。"
     },
     "TXT_RECONNECT_HELP2": {
         "Value": "如果其他所有玩家的连线状况均为红色，则可能是您出现了连接问题"
     },
     "TXT_RECONNECT_HELP3": {
-        "Value": "检查网络连线状态，确定您是否已经断线。"
+        "Value": "检查网络连线状态，确定您是否已经断线"
     },
     "TXT_RECONNECT_HELP4": {
-        "Value": "自网络中断线。"
+        "Value": "已从网络断开。"
     },
     "TXT_RECONNECT_HELP5": {
         "Value": "点选取消，放弃这场游戏，回到大厅。"
@@ -4347,7 +4347,7 @@
         "Value": "错误 - 其他玩家没有扩充场景档案。"
     },
     "TXT_SCENARIO_ERROR": {
-        "Value": "侦测到不相容的场景档案。场景档案可能已毁损。"
+        "Value": "找不到兼容的的场景文件。场景文件可能已损毁。"
     },
     "TXT_INVALID": {
         "Value": "切换游戏选项无效。"
