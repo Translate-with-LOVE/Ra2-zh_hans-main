@@ -112,7 +112,11 @@ function writeCSFFile(csfObject, filePath) {
   fs.writeFileSync(filePath, Buffer.concat(bufList))
 }
 
-const csfObjectRa2 = JSON.parse(fs.readFileSync(path.join(rootDir,'text-rep/','ra2.zh_Hans.json')))
-const csfObjectRa2md = JSON.parse(fs.readFileSync(path.join(rootDir,'text-rep/','ra2md.zh_Hans.json')))
-writeCSFFile(csfObjectRa2, path.join('ra2.csf'))
-writeCSFFile(csfObjectRa2md, path.join('ra2md.csf'))
+const csfObjectRa2 = JSON.parse(
+  fs.readFileSync(path.join(rootDir, 'text-rep/', 'ra2.zh_Hans.json'))
+)
+const csfObjectRa2md = JSON.parse(
+  fs.readFileSync(path.join(rootDir, 'text-rep/', 'ra2md.zh_Hans.json'))
+)
+writeCSFFile(csfObjectRa2, path.join(rootDir, 'ra2.csf'))
+writeCSFFile(csfObjectRa2md, path.join(rootDir, 'ra2md.csf'))
