@@ -575,6 +575,10 @@
        - {CRD:Voice_Actors} -
        Different Lao Zhao
        Conscript Freeman
+       Qiao Yu
+       Mu Xiao Bai
+       Jiang Da Qiao
+       Nian Chi Yu
 
        - {CRD:Special_Thanks} -
        Alai XL
