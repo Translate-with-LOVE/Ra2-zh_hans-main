@@ -1,0 +1,3 @@
+[submodule "text-rep"]
+	path = text-rep
+	url = git@github.com:Translate-with-LOVE/Ra2-zh_hans-text.git
