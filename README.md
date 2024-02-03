@@ -6,7 +6,9 @@
 
 本地化 QQ 群 293292761
 
-[> 文本 CSF 翻译和校对在外部网站 <](https://weblate.usvcs.cn/projects/redalert2_yr_chs/)
+[> 文本 CSF 翻译和校对在外部网站 <](https://weblate.bysb.net/projects/red-alert-2/)
+
+### 文件结构
 
 | 目录        | 说明                 |
 | ----------- | -------------------- |
@@ -16,13 +18,25 @@
 | bik         | Logo 和主菜单动画    |
 | cameo       | 单位图标             |
 | movie       | 过场动画             |
+| csf         | 游戏内文本翻译文件   |
 | fnt         | 带有简体字的字库     |
 | shp         | 游戏图像             |
 | subtitle    | 字幕文件             |
 | credits     | 制作人员名单         |
 | \_src_files | 原版部分翻译文件     |
+| \.github    | 自动构建相关配置     |
 
-自动化构建使用了以下库，特表感谢
+### 如何提交
+
+请直接 Fork，编辑您的改动然后提交 PR 即可，汉化补丁现在会在每次 Commit 后自动打包。
+
+### 下载补丁
+
+请访问[> Github Actions <](https://github.com/Translate-with-LOVE/Ra2-zh_hans-main/actions)页面来获取最新打包。
+
+### 鸣谢
+
+自动化构建正在使用或曾经试用过以下库，特表感谢
 
 | 库                                                              | 协议 |
 | --------------------------------------------------------------- | ---- |
