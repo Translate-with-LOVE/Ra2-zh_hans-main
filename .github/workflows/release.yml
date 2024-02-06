@@ -23,6 +23,8 @@ jobs:
         run: |
           cd ./.github/scripts/convert-json-to-csf
           node index.js
+      - name: Copy csf file for pack
+        run: |
           Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
           Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
         shell: pwsh
