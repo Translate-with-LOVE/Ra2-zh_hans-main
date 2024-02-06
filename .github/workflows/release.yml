@@ -23,6 +23,9 @@ jobs:
         run: |
           cd ./.github/scripts/convert-json-to-csf
           node index.js
+          Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
+          Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
+        shell: pwsh
       - name: Pack chinese audios into bag files
         run: |
           cd ./.github/scripts/pack-audio-bags
