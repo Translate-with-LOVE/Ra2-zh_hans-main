@@ -12463,7 +12463,7 @@
         "Extra": "moce LBL"
     },
     "VOX:vkirsea": {
-        "Value": "Kirov reporting.",
+        "Value": "基洛夫报到。",
         "Extra": "seae LBL"
     },
     "VOX:vkirseb": {
@@ -12479,7 +12479,7 @@
         "Extra": "sede LBL"
     },
     "VOX:vwaaata": {
-        "Value": "Enemy spotted.",
+        "Value": "发现敌人！",
         "Extra": "atae LBL"
     },
     "VOX:vwaaatb": {
