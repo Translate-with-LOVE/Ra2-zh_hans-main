@@ -3195,7 +3195,7 @@
         "Value": "愚不可及的韩国人已决定要投靠节节败退的盟军。他们对我们东部领土发动入侵的懦弱企图必将失败。捍卫祖国，准备好后，将韩国佬统统打回大海去。\n\n任务目标一：建立一座基地。防卫祖国领土。\n\n任务目标二：歼灭所有敌军。"
     },
     "Brief:SOV05": {
-        "Value": "欧洲国家正计划加入时日无多的美国阵营，我们绝不能放过这种侵略性行为。把美丽的巴黎变成废墟，把他们自己宝贵的纪念碑——埃菲尔铁塔变成威力巨大的武器，告诉盟军什么是真正的威力。\n\n任务目标一：派遣三名特斯拉步兵磁化埃菲尔铁塔并摧毁所有法国部队。\n任务目标二：防御埃菲尔铁塔免于盟军的攻击。\n任务目标三：摧毁所有剩余盟军部队。\n\n任务目标三：摧毁所有剩余盟军部队。"
+        "Value": "欧洲国家正计划加入时日无多的美国阵营，我们绝不能放过这种侵略性行为。把美丽的巴黎变成废墟，把他们自己宝贵的纪念碑——埃菲尔铁塔变成威力巨大的武器，告诉盟军什么是真正的威力。\n\n任务目标一：派遣三名特斯拉步兵磁化埃菲尔铁塔并摧毁所有法国部队。\n任务目标二：防御埃菲尔铁塔免于盟军的攻击。\n任务目标三：摧毁所有剩余盟军部队。"
     },
     "Brief:SOV06": {
         "Value": "美国已经是穷途末路了，最后驻守于珍珠港的剩余舰队正无力地等候你最后攻击。然而，我们发现韩军尚未被全部消灭，并试图与美国海军会和。绝不能让他们成功。\n\n任务目标一：于夏威夷群岛建立基地。\n\n任务目标二：摧毁盟军海军。"
@@ -7423,7 +7423,7 @@
         "Extra": "sefe LB"
     },
     "VOX:igiseg": {
-        "Value": "下一个！",
+        "Value": "下一个是谁？",
         "Extra": "sege LB"
     },
     "VOX:uinst01": {
@@ -11303,7 +11303,7 @@
         "Value": "任务目标一：建造一座超时空传送仪。\n任务目标二：解除古巴的苏联核武威胁。"
     },
     "LoadBrief:ALL12": {
-        "Value": "任务目标一：清除该区域，以供增援部队可以抵达。\n任务目标二：消灭克里姆林宫附近的罗曼诺夫的精英警卫部队。\n任务目标二：消灭克里姆林宫周遭罗曼诺夫的菁英警卫部队。"
+        "Value": "任务目标一：清除该区域，以供增援部队可以抵达。\n任务目标二：消灭克里姆林宫附近的罗曼诺夫的精英警卫部队。"
     },
     "TXT_WAITING": {
         "Value": "等待"
@@ -12002,7 +12002,7 @@
         "Value": "并未设立巡逻回圈，因为参与的部队至少有一名无法使用移动攻击。"
     },
     "MSG:PlanningModeNoJoinPatrol1": {
-        "Value": "无法参与巡逻回圈，因为至少有一名部队在选取范围内。"
+        "Value": "无法参与巡逻回圈，因为至少要有一名部队在选取范围内。"
     },
     "MSG:PlanningModeNoJoinPatrol2": {
         "Value": "无法使用移动攻击。"
@@ -12383,7 +12383,7 @@
         "Extra": "dife LBL"
     },
     "VOX:vintmoa": {
-        "Value": "Thrusters engaged.",
+        "Value": "推进器启动。",
         "Extra": "moae LBL"
     },
     "VOX:vintmob": {
@@ -12391,19 +12391,19 @@
         "Extra": "mobe LBL"
     },
     "VOX:vintmoc": {
-        "Value": "Like the wind.",
+        "Value": "如疾风掠过。",
         "Extra": "moce LBL"
     },
     "VOX:vintmod": {
-        "Value": "Willco.",
+        "Value": "遵照指示。",
         "Extra": "mode LBL"
     },
     "VOX:vintsea": {
-        "Value": "Aircraft reporting.",
+        "Value": "战斗机报到。",
         "Extra": "seae LBL"
     },
     "VOX:vintseb": {
-        "Value": "Channel clear.",
+        "Value": "频道畅通。",
         "Extra": "sebe LBL"
     },
     "VOX:vintsec": {
@@ -12411,19 +12411,19 @@
         "Extra": "sece LBL"
     },
     "VOX:vintsed": {
-        "Value": "Pilot reporting.",
+        "Value": "飞行员报到。",
         "Extra": "sede LBL"
     },
     "VOX:vkirata": {
-        "Value": "Bombing bays ready.",
+        "Value": "轰炸舱就绪。",
         "Extra": "atae LBL"
     },
     "VOX:vkiratb": {
-        "Value": "Target acquired.",
+        "Value": "目标已获取。",
         "Extra": "atbe LBL"
     },
     "VOX:vkiratc": {
-        "Value": "Closing on target.",
+        "Value": "接近目标。",
         "Extra": "atce LBL"
     },
     "VOX:vkiratd": {
@@ -12431,7 +12431,7 @@
         "Extra": "atde LBL"
     },
     "VOX:vkirdia": {
-        "Value": "Mayday! Mayday!",
+        "Value": "求救！求救！",
         "Extra": "diae LBL"
     },
     "VOX:vkirdib": {
