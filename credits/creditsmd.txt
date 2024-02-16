@@ -556,6 +556,7 @@
        robert
        MuXiaobai
        3_le_ge_4
+       FrankBRT
 
        - {CRD:Programmers} -
        Handle
@@ -693,12 +694,12 @@
        - {CRD:Voice_Actors} -
        Marc Saez
        Martial Le Minoux
-       Françoise Cadol
+       Franï¿½oise Cadol
        Sophie Riffont
-       Gilbert Lévy
-       Céline Mauge
-       Hervé Caradec
-       Gérard Dessalles
+       Gilbert Lï¿½vy
+       Cï¿½line Mauge
+       Hervï¿½ Caradec
+       Gï¿½rard Dessalles
        Michel Castelain
        Xavier Fagnon
        Jean Barney
@@ -737,18 +738,18 @@
        Udo Kier
        Marianne Bernhardt
        Sven Dahlem
-       Till Demtröder
+       Till Demtrï¿½der
        Klaus Dittmann
        Eva Freese
        Boris Freytag
        Clemens Gerhard
-       Jörg Gillner
+       Jï¿½rg Gillner
        Eberhard Haar
        Stefan Hartmann
        Verena Herkewitz
        Gerhart Hinze
        Iris Immenkamp
-       Rolf Jühlich
+       Rolf Jï¿½hlich
        Matthias Klimsa
        Volkert Kraeft
        Holger Mahlich
@@ -757,7 +758,7 @@
        Joshy Peters
        Uli Plessmann
        Wolf Rahtjen
-       Eric Schäffler
+       Eric Schï¿½ffler
        Hans Sievers
        Kathrin Spielvogel
        Bernd Stephan
@@ -796,7 +797,7 @@
        Melissa, Mocha Blasts, the Pizza Bakery {CRD:pilot}
        Adam {CRD:and} Christina Fries
        Gary, Martha, {CRD:and} Nanette Taylor, Teresa, Jay, Eddie, Wash, Ken, Bruce {CRD:and} Juba
-       Stephanie Chagollán, Margaret Mejia, Dave Mejia, Erin Tseu, {CRD:and} Ender
+       Stephanie Chagollï¿½n, Margaret Mejia, Dave Mejia, Erin Tseu, {CRD:and} Ender
        Kelly, Lizz, John, Rachel and Katy
        Jennifer Robb
 
