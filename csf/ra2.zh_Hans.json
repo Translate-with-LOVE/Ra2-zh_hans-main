@@ -12451,7 +12451,7 @@
         "Extra": "feae LBL"
     },
     "VOX:vkirmoa": {
-        "Value": "设定新路线。",
+        "Value": "设定新航线。",
         "Extra": "moae LBL"
     },
     "VOX:vkirmob": {
@@ -12463,7 +12463,7 @@
         "Extra": "moce LBL"
     },
     "VOX:vkirsea": {
-        "Value": "Kirov reporting.",
+        "Value": "基洛夫报到。",
         "Extra": "seae LBL"
     },
     "VOX:vkirseb": {
@@ -12479,7 +12479,7 @@
         "Extra": "sede LBL"
     },
     "VOX:vwaaata": {
-        "Value": "Enemy spotted.",
+        "Value": "发现敌人！",
         "Extra": "atae LBL"
     },
     "VOX:vwaaatb": {
