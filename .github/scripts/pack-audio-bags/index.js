@@ -21,21 +21,21 @@ const idxFileYR = fs.readFileSync(
 const audioPackageRa2 = new AudioPackage(idxFileRA2, bagFileRA2)
 const audioPackageYR = new AudioPackage(idxFileYR, bagFileYR)
 
-const ra2ChsAudioList = fs.readdirSync(path.join(rootDir, 'audio_inBAG/ra2'))
-const yrChsAudioList = fs.readdirSync(path.join(rootDir, 'audio_inBAG/yr'))
+// const ra2ChsAudioList = fs.readdirSync(path.join(rootDir, 'audio_inBAG/ra2'))
+// const yrChsAudioList = fs.readdirSync(path.join(rootDir, 'audio_inBAG/yr'))
 
-ra2ChsAudioList.forEach((fileName) => {
-  const fileBuff = fs.readFileSync(
-    path.join(rootDir, 'audio_inBAG/ra2', fileName)
-  )
-  audioPackageRa2.addItemFromWav(fileName, fileBuff)
-})
-yrChsAudioList.forEach((fileName) => {
-  const fileBuff = fs.readFileSync(
-    path.join(rootDir, 'audio_inBAG/yr', fileName)
-  )
-  audioPackageYR.addItemFromWav(fileName, fileBuff)
-})
+// ra2ChsAudioList.forEach((fileName) => {
+//   const fileBuff = fs.readFileSync(
+//     path.join(rootDir, 'audio_inBAG/ra2', fileName)
+//   )
+//   audioPackageRa2.addItemFromWav(fileName, fileBuff)
+// })
+// yrChsAudioList.forEach((fileName) => {
+//   const fileBuff = fs.readFileSync(
+//     path.join(rootDir, 'audio_inBAG/yr', fileName)
+//   )
+//   audioPackageYR.addItemFromWav(fileName, fileBuff)
+// })
 
 fs.writeFileSync(
   path.join(rootDir, '_src_files/audio/audio.bag'),

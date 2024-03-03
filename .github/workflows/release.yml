@@ -33,10 +33,10 @@ jobs:
           cd ./.github/scripts/pack-audio-bags
           npm i
           node index.js
-      - name: Pack other chinese audios to mix folders
-        run: |
-          Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
-          Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
+      # - name: Pack other chinese audios to mix folders
+      #   run: |
+      #     Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
+      #     Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
       - name: Pack audio.mix & audiomd.mix
         run: |
           ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audio" -mix "./_src_files/language/audio.mix"
@@ -69,46 +69,46 @@ jobs:
           ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/langmd" -mix "./langmd.mix" -checksum
         shell: pwsh
       - name: Zip langeuage pack
+          # mkdir "Taunts"
+          # Copy-Item "./_src_files/taunts/*" -Destination "./Taunts/" -Force
+          # 7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" Taunts\
         run: |
-          mkdir "Taunts"
-          Copy-Item "./_src_files/taunts/*" -Destination "./Taunts/" -Force
-          7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" Taunts\
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" .\subtitle\*
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" language.mix
           7z a "RedAlert2-LanguagePack-ChineseSimplified.zip" langmd.mix
-      - name: Upload files to release
-        uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-        with:
-          files: |
-            RedAlert2-LanguagePack-ChineseSimplified.zip
+      # - name: Upload files to release
+      #   uses: softprops/action-gh-release@v1
+      #   if: startsWith(github.ref, 'refs/tags/')
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      #   with:
+      #     files: |
+      #       RedAlert2-LanguagePack-ChineseSimplified.zip
       - name: Upload files to artifact
         uses: actions/upload-artifact@v3
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
         with:
           name: LanguagePack-ChineseSimplified
           path: RedAlert2-LanguagePack-ChineseSimplified.zip
-          retention-days: 14
-      - name: Upload to OSS (Commit)
-        uses: iamapig120/upload-to-oss@master
-        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
-        with:
-          key-id: ${{ secrets.OSS_KEY_ID }}
-          key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          region: oss-cn-shanghai
-          bucket: ra2-chs-pack
-          assets: |
-            RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-commit.zip
-      - name: Upload to OSS (Release)
-        uses: iamapig120/upload-to-oss@master
-        if: startsWith(github.ref, 'refs/tags/')
-        with:
-          key-id: ${{ secrets.OSS_KEY_ID }}
-          key-secret: ${{ secrets.OSS_KEY_SECRET }}
-          region: oss-cn-shanghai
-          bucket: ra2-chs-pack
-          assets: |
-            RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-release.zip
+          retention-days: 90
+      # - name: Upload to OSS (Commit)
+      #   uses: iamapig120/upload-to-oss@master
+      #   if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+      #   with:
+      #     key-id: ${{ secrets.OSS_KEY_ID }}
+      #     key-secret: ${{ secrets.OSS_KEY_SECRET }}
+      #     region: oss-cn-shanghai
+      #     bucket: ra2-chs-pack
+      #     assets: |
+      #       RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-commit.zip
+      # - name: Upload to OSS (Release)
+      #   uses: iamapig120/upload-to-oss@master
+      #   if: startsWith(github.ref, 'refs/tags/')
+      #   with:
+      #     key-id: ${{ secrets.OSS_KEY_ID }}
+      #     key-secret: ${{ secrets.OSS_KEY_SECRET }}
+      #     region: oss-cn-shanghai
+      #     bucket: ra2-chs-pack
+      #     assets: |
+      #       RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-release.zip
           
