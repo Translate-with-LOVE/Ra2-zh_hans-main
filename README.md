@@ -1,5 +1,7 @@
 # 红色警戒 2 简体中文语言包（仅文本）
 本项目fork自[Translate-with-LOVE/Ra2-zh_hans-main](https://github.com/Translate-with-LOVE/Ra2-zh_hans-main)，出于个人偏好去除了原项目中的配音。
+请访问[Github Actions](https://github.com/FranciscoTu/Ra2-zh_hans-TextOnly/actions)页面来获取最新打包，注意，这一操作需要GitHub登入。
+以下是原项目README，本人向原项目贡献者的工作表示崇高敬意。
 
 包含了红色警戒 2 和尤里的复仇的汉化，制作团队可参考 credits 路径，该项目不代表最终成品，请长期跟踪本项目获取最新最热版本。
 
