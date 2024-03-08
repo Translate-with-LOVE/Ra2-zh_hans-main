@@ -90,7 +90,7 @@ jobs:
         with:
           name: LanguagePack-ChineseSimplified
           path: RedAlert2-LanguagePack-ChineseSimplified.zip
-          retention-days: 14
+          retention-days: 90
       - name: Upload to OSS (Commit)
         uses: iamapig120/upload-to-oss@master
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
