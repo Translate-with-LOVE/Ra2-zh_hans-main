@@ -237,7 +237,7 @@
         "Value": "先睹为快"
     },
     "GUI:PlayMovies": {
-        "Value": "播放电影"
+        "Value": "播放影片"
     },
     "GUI:ViewCredits": {
         "Value": "查看制作人员"
@@ -13498,7 +13498,7 @@
         "Value": "产品经理"
     },
     "CRD_TTL:CHINA": {
-        "Value": "中国"
+        "Value": "中文（简体）"
     },
     "CRD:LocalizationProjectManager": {
         "Value": "本地化项目经理"
@@ -16835,5 +16835,8 @@
     },
     "Name:Hero3": {
         "Value": "英雄"
+    },
+    "CRD_TTL:TAIWAN": {
+        "Value": "中文（繁体）"
     }
 }
