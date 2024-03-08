@@ -694,12 +694,12 @@
        - {CRD:Voice_Actors} -
        Marc Saez
        Martial Le Minoux
-       Franï¿½oise Cadol
+       Françoise Cadol
        Sophie Riffont
-       Gilbert Lï¿½vy
-       Cï¿½line Mauge
-       Hervï¿½ Caradec
-       Gï¿½rard Dessalles
+       Gilbert Lévy
+       Céline Mauge
+       Hervé Caradec
+       Gérard Dessalles
        Michel Castelain
        Xavier Fagnon
        Jean Barney
@@ -738,18 +738,18 @@
        Udo Kier
        Marianne Bernhardt
        Sven Dahlem
-       Till Demtrï¿½der
+       Till Demtröder
        Klaus Dittmann
        Eva Freese
        Boris Freytag
        Clemens Gerhard
-       Jï¿½rg Gillner
+       Jörg Gillner
        Eberhard Haar
        Stefan Hartmann
        Verena Herkewitz
        Gerhart Hinze
        Iris Immenkamp
-       Rolf Jï¿½hlich
+       Rolf Jühlich
        Matthias Klimsa
        Volkert Kraeft
        Holger Mahlich
@@ -758,7 +758,7 @@
        Joshy Peters
        Uli Plessmann
        Wolf Rahtjen
-       Eric Schï¿½ffler
+       Eric Schäffler
        Hans Sievers
        Kathrin Spielvogel
        Bernd Stephan
@@ -797,7 +797,7 @@
        Melissa, Mocha Blasts, the Pizza Bakery {CRD:pilot}
        Adam {CRD:and} Christina Fries
        Gary, Martha, {CRD:and} Nanette Taylor, Teresa, Jay, Eddie, Wash, Ken, Bruce {CRD:and} Juba
-       Stephanie Chagollï¿½n, Margaret Mejia, Dave Mejia, Erin Tseu, {CRD:and} Ender
+       Stephanie Chagollán, Margaret Mejia, Dave Mejia, Erin Tseu, {CRD:and} Ender
        Kelly, Lizz, John, Rachel and Katy
        Jennifer Robb
 
