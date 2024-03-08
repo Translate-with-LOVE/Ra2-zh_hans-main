@@ -237,7 +237,7 @@
         "Value": "先睹为快"
     },
     "GUI:PlayMovies": {
-        "Value": "播放电影"
+        "Value": "播放影片"
     },
     "GUI:ViewCredits": {
         "Value": "查看制作人员"
@@ -14635,7 +14635,7 @@
         "Value": "选择防御页面"
     },
     "CRD_TTL:TAIWAN": {
-        "Value": "中国台湾"
+        "Value": "中文（繁体）"
     },
     "txt_unit_tab": {
         "Value": "选择载具页面"
