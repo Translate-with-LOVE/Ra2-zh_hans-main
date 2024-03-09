@@ -3168,7 +3168,7 @@
         "Value": "状况"
     },
     "GUI:AddBuddy": {
-        "Value": "增加好友"
+        "Value": "添加好友"
     },
     "GUI:RemoveBuddy": {
         "Value": "移除好友"
@@ -3285,7 +3285,7 @@
         "Value": "等待"
     },
     "TXT_PRIMARY": {
-        "Value": "主要"
+        "Value": "首要"
     },
     "TXT_PRI": {
         "Value": "主"
