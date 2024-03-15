@@ -110,5 +110,4 @@ jobs:
       #     region: oss-cn-shanghai
       #     bucket: ra2-chs-pack
       #     assets: |
-      #       RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-release.zip
-          
+      #       RedAlert2-LanguagePack-ChineseSimplified.zip:/latest-release.zip         

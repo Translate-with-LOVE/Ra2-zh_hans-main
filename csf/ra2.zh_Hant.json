@@ -14641,6 +14641,9 @@
         "Value": "無法預覽"
     },
     "CRD_TTL:TAIWAN": {
-        "Value": "中國台灣"
+        "Value": "台灣"
+    },
+    "Name:CACHIG06": {
+        "Value": "建築物"
     }
 }

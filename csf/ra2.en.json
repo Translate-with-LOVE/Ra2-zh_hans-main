@@ -14642,5 +14642,8 @@
     },
     "CRD_TTL:TAIWAN": {
         "Value": "TAIWAN"
+    },
+    "Name:CACHIG06": {
+        "Value": "Building"
     }
 }
