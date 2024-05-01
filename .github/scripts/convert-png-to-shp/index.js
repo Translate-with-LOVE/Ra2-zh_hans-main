@@ -235,7 +235,7 @@ const getShpBin = async (fileName) => {
       2818 |
       2819 |
       2820 |
-      28278 |
+      2878 |
       2879
     ) {
       return 0
