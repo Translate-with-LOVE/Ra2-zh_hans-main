@@ -224,21 +224,21 @@ const getShpBin = async (fileName) => {
   })
   const indexedMap = imgRGB.map(([r, g, b], index) => {
     // 四个角透明色区域返回透明色
-    if (
-      (index === 0) |
-      1 |
-      58 |
-      59 |
-      60 |
-      119 |
-      2759 |
-      2818 |
-      2819 |
-      2820 |
-      2878 |
-      2879
-    ) {
-      return 0
+    switch (index) {
+      case 0:
+      case 1:
+      case 58:
+      case 59:
+      case 60:
+      case 119:
+      case 2759:
+      case 2818:
+      case 2819:
+      case 2820:
+      case 2878:
+      case 2879:
+        return 0
+      default:
     }
     if (rainbowSheet[(r << 16) | (g << 8) | b] !== undefined) {
       // 如果彩虹表已有值，取出
