@@ -40,7 +40,7 @@ jobs:
           ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameo" -mix "./_src_files/language/cameo.mix" -checksum -encrypt
           ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/cameomd" -mix "./_src_files/langmd/cameomd.mix" -checksum -encrypt
         shell: pwsh
-      - name: Copy there files cameo files
+      - name: Copy other files
         run: |
           Copy-Item "./bik/ra2/*" -Destination "./_src_files/language/" -Force
           Copy-Item "./bik/yr/*" -Destination "./_src_files/langmd/" -Force
@@ -48,6 +48,11 @@ jobs:
           Copy-Item "./credits/creditsmd.txt" -Destination "./_src_files/langmd/" -Force
           Copy-Item "./fnt/game.fnt" -Destination "./_src_files/language/" -Force
           Copy-Item "./shp/grfxtxt.shp" -Destination "./_src_files/language/" -Force
+        shell: pwsh
+      - name: Pack audio.mix & audiomd.mix
+        run: |
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audio" -mix "./_src_files/language/audio.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audiomd" -mix "./_src_files/langmd/audiomd.mix"
         shell: pwsh
       - name: Pack langeuage pack mix files
         run: |
@@ -71,10 +76,10 @@ jobs:
         run: |
           Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
           Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
-      - name: Pack audio.mix & audiomd.mix
+      - name: Pack langeuage pack mix files
         run: |
-          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audio" -mix "./_src_files/language/audio.mix"
-          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audiomd" -mix "./_src_files/langmd/audiomd.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/language" -mix "./language.mix" -checksum -encrypt
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/langmd" -mix "./langmd.mix" -checksum
         shell: pwsh
       - name: Zip language pack with Chinese Audio
         run: |
