@@ -172,6 +172,9 @@ const getShpBin = async (fileName) => {
       }
     }
   }
+  /**
+   * @type {[r:number,g:number,b:number][]}
+   */
   const imgRGB = await loadImage(fileName).then((image) => {
     ctx.drawImage(image, 0, 0, 60, 48)
     if (printTitle) {
@@ -219,14 +222,32 @@ const getShpBin = async (fileName) => {
     }
     return imgDataRGB
   })
-  const indexedMap = imgRGB.map(([r, g, b]) => {
-    // 如果彩虹表已有值，取出
+  const indexedMap = imgRGB.map(([r, g, b], index) => {
+    // 四个角透明色区域返回透明色
+    if (
+      (index === 0) |
+      1 |
+      58 |
+      59 |
+      60 |
+      119 |
+      2759 |
+      2818 |
+      2819 |
+      2820 |
+      28278 |
+      2879
+    ) {
+      return 0
+    }
     if (rainbowSheet[(r << 16) | (g << 8) | b] !== undefined) {
+      // 如果彩虹表已有值，取出
       return rainbowSheet[(r << 16) | (g << 8) | b]
     }
     let minDeltaE = 101
     let acTindex = -1
-    for (let i = 0; i < 255; i++) {
+    //初始值为1，屏蔽透明色
+    for (let i = 1; i < 255; i++) {
       let res = deltaE(actRGB[i], [r, g, b], 'rgb')
       if (res < minDeltaE) {
         minDeltaE = res
