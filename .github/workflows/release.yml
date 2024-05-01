@@ -78,8 +78,6 @@ jobs:
         shell: pwsh
       - name: Zip language pack with Chinese Audio
         run: |
-          mkdir "Taunts"
-          Copy-Item "./_src_files/taunts/*" -Destination "./Taunts/" -Force
           7z a "RedAlert2-LanguagePack-zh_hans.zip" Taunts\
           7z a "RedAlert2-LanguagePack-zh_hans.zip" .\subtitle\*
           7z a "RedAlert2-LanguagePack-zh_hans.zip" language.mix
