@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-2022
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       # - name: Download latest csf translate file in INI format
       #   run: ./.github/scripts/download_latest_csf.cmd
       #   shell: cmd
@@ -85,7 +85,7 @@ jobs:
           files: |
             RedAlert2-LanguagePack-ChineseSimplified.zip
       - name: Upload files to artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: ${{ !startsWith(github.ref, 'refs/tags/') }}
         with:
           name: LanguagePack-ChineseSimplified
