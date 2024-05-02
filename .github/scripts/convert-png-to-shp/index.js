@@ -40,7 +40,10 @@ const parseACT = (file) => {
   //以Hex方式读取文件
   const data = fs.readFileSync(file)
   //遍历每个字节，每三个字节代表一个颜色值（RGB）
-  for (let i = 0; i < data.length; i += 3) {
+  //向色盘推送第一个颜色
+  colors.push([data[0], data[1], data[2]])
+  //起始值为3，用于跳过透明通道
+  for (let i = 3; i < data.byteLength; i += 3) {
     //获取当前字节
     let r = data[i]
     let g = data[i + 1]
@@ -231,10 +234,10 @@ const getShpBin = async (fileName) => {
       case 59:
       case 60:
       case 119:
-      case 2759:
-      case 2818:
+      case 2760:
       case 2819:
       case 2820:
+      case 2821:
       case 2878:
       case 2879:
         return 0
