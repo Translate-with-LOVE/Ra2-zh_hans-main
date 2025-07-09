@@ -93,7 +93,7 @@
         "Value": "雪地生机（2-4）"
     },
     "DESC:MP17T6": {
-        "Value": "马里布悬崖（2-6）"
+        "Value": "马利布悬崖（2-6）"
     },
     "DESC:MP18S3": {
         "Value": "冷战（2-3）"
@@ -14815,7 +14815,7 @@
         "Value": "四角战争（2-4）"
     },
     "NAME:Oades": {
-        "Value": "欧帝斯之岛（2-4）"
+        "Value": "奥兹岛（2-4）"
     },
     "NAME:MonValley": {
         "Value": "纪念谷（2-6）"
@@ -14833,7 +14833,7 @@
         "Value": "重返森林战"
     },
     "NAME:SedonaPass": {
-        "Value": "山多纳海峡（2-6）"
+        "Value": "塞多纳小径（2-6）"
     },
     "NAME:SPoleSlug": {
         "Value": "南极生死战（2-4）"
@@ -14845,7 +14845,7 @@
         "Value": "埃及之旅（2-6）"
     },
     "NAME:TrailerPark": {
-        "Value": "拖车屋停驻场（2-8）"
+        "Value": "拖车公园（2-8）"
     },
     "NAME:TurfWar": {
         "Value": "草地战争（2-4）"
@@ -15847,7 +15847,7 @@
         "Value": "本游戏模式必须多于一个小队。"
     },
     "Name:Frank04": {
-        "Value": "必须是注册玩家才能使用本地图。"
+        "Value": "您必须是注册玩家才能使用本地图。"
     },
     "NAME:PtBlank": {
         "Value": "空白区域"
@@ -15859,7 +15859,7 @@
         "Value": "秘密山谷（2）"
     },
     "NAME:DpFreeze": {
-        "Value": "冰原深处"
+        "Value": "严寒冻土"
     },
     "NAME:Oasis": {
         "Value": "绿洲"
@@ -16006,7 +16006,7 @@
         "Value": "硬仗"
     },
     "NAME:FaceDwn": {
-        "Value": "恐怖岛（2-4）"
+        "Value": "反目（2-4）"
     },
     "NAME:PetCmetry": {
         "Value": "宠物墓园"
@@ -16039,7 +16039,7 @@
         "Value": "最长的一夜"
     },
     "NAME:Cityville": {
-        "Value": "城市商业区（2-4）"
+        "Value": "市中心（2-4）"
     },
     "NAME:KTourn1": {
         "Value": "韩国锦标赛一"
@@ -16186,7 +16186,7 @@
         "Value": "轻骑兵"
     },
     "NAME:Valhalla": {
-        "Value": "瓦尔哈拉"
+        "Value": "英灵殿"
     },
     "NAME:CagedTig": {
         "Value": "笼中虎"
