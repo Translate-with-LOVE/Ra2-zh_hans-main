@@ -22,10 +22,18 @@ const fonts = {
 /** @type {{[x:string]:string}} */
 const fileTitleMap = {}
 
-const titleMapFile = fs
-  .readFileSync(path.join(rootDir, '/cameo', '/titleMap.csv'))
+const titleMapFileYR = fs
+  .readFileSync(path.join(rootDir, '/cameo', '/titles-yr.csv'))
   .toString('utf-8')
-titleMapFile.split('\n').forEach((line) => {
+titleMapFileYR.split('\n').forEach((line) => {
+  const lineArray = line.split(',')
+  fileTitleMap[lineArray[0]] = lineArray[1]
+})
+
+const titleMapFileRA2 = fs
+  .readFileSync(path.join(rootDir, '/cameo', '/titles-ra2.csv'))
+  .toString('utf-8')
+titleMapFileRA2.split('\n').forEach((line) => {
   const lineArray = line.split(',')
   fileTitleMap[lineArray[0]] = lineArray[1]
 })
@@ -88,16 +96,16 @@ const colorMap = {
   7: '#a4a4a4',
 }
 
-const getShpBin = async (fileName) => {
+const getShpBin = async (fileName, titleMap) => {
   ctx.clearRect(0, 0, 60, 48)
   textCtx.clearRect(0, 0, 1024, 48)
   textCtxTop.clearRect(0, 0, 1024, 48)
 
   const basename = path.basename(fileName, path.extname(fileName))
   let printTitle = false
-  if (fileTitleMap[basename]) {
+  if (titleMap[basename]) {
     printTitle = true
-    titleLines = fileTitleMap[basename]
+    titleLines = titleMap[basename]
       .split('\n')
       .map((name) => name.split('\r')[0])
     textLineTotalWidth = new Array(titleLines.length).fill(0)
@@ -311,7 +319,10 @@ const getShpBin = async (fileName) => {
         'cameo/ra2',
         path.basename(fileName, path.extname(fileName))
       ) + '.shp',
-      await getShpBin(path.join(rootDir, 'cameo/ra2', fileName))
+      await getShpBin(
+        path.join(rootDir, 'cameo/ra2', fileName),
+        titleMapFileRA2
+      )
     )
     console.clear()
     console.log(
@@ -329,7 +340,7 @@ const getShpBin = async (fileName) => {
         'cameo/yr',
         path.basename(fileName, path.extname(fileName))
       ) + '.shp',
-      await getShpBin(path.join(rootDir, 'cameo/yr', fileName))
+      await getShpBin(path.join(rootDir, 'cameo/yr', fileName), titleMapFileYR)
     )
     console.clear()
     console.log(
