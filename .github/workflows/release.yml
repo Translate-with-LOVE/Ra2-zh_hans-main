@@ -2,6 +2,8 @@ name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
   push:
+    branches:
+      - main
   release:
     types: [published]
 jobs:
