@@ -20,14 +20,16 @@ const fonts = {
 }
 
 /** @type {{[x:string]:string}} */
-const fileTitleMap = {}
+const fileTitleMapYR = {}
+/** @type {{[x:string]:string}} */
+const fileTitleMapRA2 = {}
 
 const titleMapFileYR = fs
   .readFileSync(path.join(rootDir, '/cameo', '/titles-yr.csv'))
   .toString('utf-8')
 titleMapFileYR.split('\n').forEach((line) => {
   const lineArray = line.split(',')
-  fileTitleMap[lineArray[0]] = lineArray[1]
+  fileTitleMapYR[lineArray[0]] = lineArray[1]
 })
 
 const titleMapFileRA2 = fs
@@ -35,7 +37,7 @@ const titleMapFileRA2 = fs
   .toString('utf-8')
 titleMapFileRA2.split('\n').forEach((line) => {
   const lineArray = line.split(',')
-  fileTitleMap[lineArray[0]] = lineArray[1]
+  fileTitleMapRA2[lineArray[0]] = lineArray[1]
 })
 
 /**
@@ -321,7 +323,7 @@ const getShpBin = async (fileName, titleMap) => {
       ) + '.shp',
       await getShpBin(
         path.join(rootDir, 'cameo/ra2', fileName),
-        titleMapFileRA2
+        fileTitleMapRA2
       )
     )
     console.clear()
@@ -340,7 +342,7 @@ const getShpBin = async (fileName, titleMap) => {
         'cameo/yr',
         path.basename(fileName, path.extname(fileName))
       ) + '.shp',
-      await getShpBin(path.join(rootDir, 'cameo/yr', fileName), titleMapFileYR)
+      await getShpBin(path.join(rootDir, 'cameo/yr', fileName), fileTitleMapYR)
     )
     console.clear()
     console.log(
