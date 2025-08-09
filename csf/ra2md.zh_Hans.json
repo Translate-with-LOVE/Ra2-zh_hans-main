@@ -2325,7 +2325,7 @@
         "Value": "激光防护部队"
     },
     "Name:NALASR": {
-        "Value": "哨戒炮"
+        "Value": "哨兵枪"
     },
     "Name:GAPILL": {
         "Value": "机枪碉堡"
@@ -11396,7 +11396,7 @@
         "Value": "谭雅殉职了！"
     },
     "MISSION:ALL02i": {
-        "Value": "如此火箭飞行兵方能摧毁哨戒炮"
+        "Value": "如此火箭飞行兵就能摧毁哨兵枪"
     },
     "MISSION:All03a": {
         "Value": "任务目标一：摧毁心灵信标"
