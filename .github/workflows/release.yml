@@ -2,8 +2,6 @@ name: Release-Auto-Pack
 run-name: Packing Language Pack...
 on:
   push:
-    branches:
-      - main
   release:
     types: [published]
 jobs:
@@ -93,7 +91,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
             RedAlert2-LanguagePack-zh_hans.zip
