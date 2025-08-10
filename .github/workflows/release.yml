@@ -8,6 +8,8 @@ jobs:
   pack-all-files:
     name: Build & Pack Language Pack
     runs-on: windows-2022
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -132,4 +134,4 @@ jobs:
           assets: |
             RedAlert2-LanguagePack-zh_hans.zip:/latest-release.zip
             RedAlert2-LanguagePack-zh_hans-NoChineseAudio.zip:/latest-release-noaudio.zip
-          
+
