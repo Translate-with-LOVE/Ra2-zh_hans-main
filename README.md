@@ -44,6 +44,9 @@
 | [rochars/wavefile](https://github.com/rochars/wavefile)         | MIT  |
 | [askeladdk/ccmixar](https://github.com/askeladdk/ccmixar)       | ISC  |
 
+项目大量参考了[ra2diy/Ra2ChsCsf](https://github.com/ra2diy/Ra2ChsCsf)仓库翻译以进行改进，在此感谢
+
+
 ### 赞助
 
 非常感谢您的兴趣，现已开通爱发电豪华午餐以便您提供赞助
