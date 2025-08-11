@@ -591,7 +591,7 @@
         "Value": "电脑"
     },
     "GUI:AILevel": {
-        "Value": "AI 技能等级"
+        "Value": "AI 游戏水平"
     },
     "GUI:MultiEngineer": {
         "Value": "多位工程师"
@@ -618,7 +618,7 @@
         "Value": "互联网"
     },
     "GUI:ModemSerial": {
-        "Value": "数据机/序列端口"
+        "Value": "调制解调器/串行端口"
     },
     "GUI:IPXOptions": {
         "Value": "IPX 选项"
@@ -807,7 +807,7 @@
         "Value": "波特率"
     },
     "GUI:SerialSettings": {
-        "Value": "序列端口设置"
+        "Value": "串行端口设置"
     },
     "GUI:CallWaiting": {
         "Value": "等待拨号"
@@ -822,7 +822,7 @@
         "Value": "连接错误"
     },
     "GUI:DataCompression": {
-        "Value": "资料压缩"
+        "Value": "数据压缩"
     },
     "GUI:InitString": {
         "Value": "启动码"
@@ -852,7 +852,7 @@
         "Value": "重复播放"
     },
     "GUI:GetWOLAccount": {
-        "Value": "获取一个 Westwood Online 登录帐号"
+        "Value": "获取一个 Westwood Online 登录账号"
     },
     "GUI:Birthdate": {
         "Value": "生日"
@@ -870,7 +870,7 @@
         "Value": "继续"
     },
     "GUI:DownloadingPatch": {
-        "Value": "下载补丁"
+        "Value": "下载更新中"
     },
     "GUI:MaxPlayers": {
         "Value": "最大玩家数"
@@ -900,7 +900,7 @@
         "Value": "标准"
     },
     "GUI:SelectedGameDetails": {
-        "Value": "所选游戏详细资料"
+        "Value": "所选游戏详细信息"
     },
     "GUI:ShowAll": {
         "Value": "全部显示"
@@ -990,10 +990,10 @@
         "Value": "设置地区"
     },
     "GUI:StoreLogin": {
-        "Value": "保存登录资料"
+        "Value": "保存登录信息"
     },
     "GUI:NewAccount": {
-        "Value": "新帐号"
+        "Value": "新账号"
     },
     "GUI:Users": {
         "Value": "玩家"
@@ -1080,7 +1080,7 @@
         "Value": "可用服务器"
     },
     "GUI:WaitingResp": {
-        "Value": "等待回应"
+        "Value": "等待响应"
     },
     "GUI:Disconnect": {
         "Value": "断线"
@@ -1119,7 +1119,7 @@
         "Value": "关闭"
     },
     "GUI:Waiting": {
-        "Value": "等待中 .."
+        "Value": "等待中..."
     },
     "ERROR:NameIsReservedWord": {
         "Value": "您的名称包含了特定保留词汇！请选择其他名称。"
@@ -1239,7 +1239,7 @@
         "Value": "您所选择的战场名称。"
     },
     "STT:SkirmishSliderAIDifficulty": {
-        "Value": "调整电脑玩家的技能等级。"
+        "Value": "调整电脑玩家的游戏水平。"
     },
     "STT:SkirmishButtonStartGame": {
         "Value": "根据您的游戏设置开始游戏。"
@@ -1326,7 +1326,7 @@
         "Value": "选择战场地图。"
     },
     "STT:HostSliderAIDifficulty": {
-        "Value": "调整电脑玩家的技能等级。"
+        "Value": "调整电脑玩家的游戏水平。"
     },
     "STT:HostButtonBack": {
         "Value": "回到网络大厅菜单。"
@@ -1383,7 +1383,7 @@
         "Value": "游戏准备开始时，请按这个按钮。"
     },
     "STT:GuestSliderAIDifficulty": {
-        "Value": "调整电脑玩家的技能等级。"
+        "Value": "调整电脑玩家的游戏水平。"
     },
     "STT:GuestButtonBack": {
         "Value": "回到网络大厅菜单。"
@@ -2139,7 +2139,7 @@
         "Value": "V3 火箭"
     },
     "Name:APACHE": {
-        "Value": "阿帕契"
+        "Value": "阿帕奇"
     },
     "Name:PDPLANE": {
         "Value": "运输机"
@@ -2313,7 +2313,7 @@
         "Value": "搜寻者控制"
     },
     "Name:GAPLUG3": {
-        "Value": "离子炮连结"
+        "Value": "离子炮上行连接"
     },
     "Name:GAFIRE": {
         "Value": "火风暴产生器"
@@ -2685,7 +2685,7 @@
         "Value": "油桶"
     },
     "Name:CAMISC03": {
-        "Value": "子母垃圾车"
+        "Value": "垃圾箱"
     },
     "Name:CAMISC04": {
         "Value": "邮筒"
@@ -2733,7 +2733,7 @@
         "Value": "超时空传送"
     },
     "Name:Chrono2": {
-        "Value": "超时空发动二"
+        "Value": "超时空阶段二"
     },
     "Name:Para": {
         "Value": "伞兵"
@@ -2742,7 +2742,7 @@
         "Value": "---------\n"
     },
     "WDT:ReviewingHistory": {
-        "Value": "回顾历史 .."
+        "Value": "回顾历史..."
     },
     "WDT:ReviewingHistoryDay": {
         "Value": "日期："
@@ -2772,7 +2772,7 @@
         "Value": "完整游戏"
     },
     "WDT:ShortGame": {
-        "Value": "短暂游戏"
+        "Value": "快速游戏"
     },
     "WDT:Credits": {
         "Value": "启动资金：%hs"
@@ -2802,7 +2802,7 @@
         "Value": "北太平洋"
     },
     "WDT:NorthAmerica01": {
-        "Value": "北落矶山脉"
+        "Value": "大福克斯"
     },
     "WDT:NorthAmerica02": {
         "Value": "蒙大拿"
@@ -2811,7 +2811,7 @@
         "Value": "黑丘"
     },
     "WDT:NorthAmerica04": {
-        "Value": "苏必略湖"
+        "Value": "苏必利尔湖"
     },
     "WDT:NorthAmerica05": {
         "Value": "安大略"
@@ -2826,19 +2826,19 @@
         "Value": "圣劳伦斯湾"
     },
     "WDT:NorthAmerica09": {
-        "Value": "新斯科细亚省"
+        "Value": "新斯科舍"
     },
     "WDT:NorthAmerica10": {
         "Value": "西岸"
     },
     "WDT:NorthAmerica11": {
-        "Value": "大瀑布"
+        "Value": "喀斯喀特山脉"
     },
     "WDT:NorthAmerica12": {
-        "Value": "蛇川"
+        "Value": "斯内克河"
     },
     "WDT:NorthAmerica13": {
-        "Value": "北落矶山脉"
+        "Value": "北落基山脉"
     },
     "WDT:NorthAmerica14": {
         "Value": "西部门户"
@@ -2847,10 +2847,10 @@
         "Value": "大湖区"
     },
     "WDT:NorthAmerica16": {
-        "Value": "阿帕拉契山脉"
+        "Value": "阿巴拉契亚山脉"
     },
     "WDT:NorthAmerica17": {
-        "Value": "南卡罗莱纳"
+        "Value": "南加州"
     },
     "WDT:NorthAmerica18": {
         "Value": "大峡谷"
@@ -2859,31 +2859,31 @@
         "Value": "南落矶山脉"
     },
     "WDT:NorthAmerica20": {
-        "Value": "多吉"
+        "Value": "道奇"
     },
     "WDT:NorthAmerica21": {
         "Value": "俄亥俄河"
     },
     "WDT:NorthAmerica22": {
-        "Value": "罗安纳可"
+        "Value": "罗阿诺克"
     },
     "WDT:NorthAmerica23": {
-        "Value": "狭长区域"
+        "Value": "潘汉德尔"
     },
     "WDT:NorthAmerica24": {
         "Value": "德州湾"
     },
     "WDT:NorthAmerica25": {
-        "Value": "湾岸"
+        "Value": "墨西哥湾沿岸地区"
     },
     "WDT:NorthAmerica26": {
-        "Value": "沙凡那港市"
+        "Value": "萨凡纳"
     },
     "WDT:NorthAmerica27": {
-        "Value": "巴札"
+        "Value": "下加利福尼亚半岛"
     },
     "WDT:NorthAmerica28": {
-        "Value": "曼得罗山脉"
+        "Value": "马德雷山脉"
     },
     "WDT:NorthAmerica29": {
         "Value": "南湾"
@@ -2928,7 +2928,7 @@
         "Value": "北大西洋"
     },
     "WDT:Europe13": {
-        "Value": "伊布罗河"
+        "Value": "埃布罗河"
     },
     "WDT:Europe14": {
         "Value": "里昂湾"
@@ -2937,10 +2937,10 @@
         "Value": "阿尔卑斯山脉"
     },
     "WDT:Europe16": {
-        "Value": "力古利亚"
+        "Value": "利古里亚"
     },
     "WDT:Europe17": {
-        "Value": "亚得里亚湾"
+        "Value": "亚得里亚海岸"
     },
     "WDT:Europe18": {
         "Value": "多瑙河三角洲"
@@ -2949,16 +2949,16 @@
         "Value": "黑海"
     },
     "WDT:Europe20": {
-        "Value": "蒙瑞那山脉"
+        "Value": "莫雷纳山脉"
     },
     "WDT:Europe21": {
-        "Value": "萨丁尼亚岛"
+        "Value": "撒丁岛"
     },
     "WDT:Europe22": {
-        "Value": "提尔赫尼亚"
+        "Value": "第勒尼安"
     },
     "WDT:Europe23": {
-        "Value": "爱琴海"
+        "Value": "爱琴海岸"
     },
     "WDT:Europe24": {
         "Value": "小亚细亚"
@@ -2976,10 +2976,10 @@
         "Value": "撒哈拉沙漠"
     },
     "WDT:Europe29": {
-        "Value": "突尼西亚"
+        "Value": "突尼斯"
     },
     "WDT:Asia00": {
-        "Value": "新强"
+        "Value": "新疆"
     },
     "WDT:Asia01": {
         "Value": "甘肃"
@@ -3081,13 +3081,13 @@
         "Value": "登录"
     },
     "GUI:RememberAccount": {
-        "Value": "记住帐号信息"
+        "Value": "记住账号信息"
     },
     "GUI:ForgetAccount": {
-        "Value": "删除帐号"
+        "Value": "删除账号"
     },
     "GUI:AutoLoginQuery": {
-        "Value": "您将来要以这个帐号自动登录吗？"
+        "Value": "您以后要使用这个账号自动登录吗？"
     },
     "GUI:DoNotAsk": {
         "Value": "不要再显示此问题"
@@ -3105,16 +3105,16 @@
         "Value": "自定竞赛"
     },
     "GUI:PlayBuddy": {
-        "Value": "好友名单"
+        "Value": "好友列表"
     },
     "GUI:PlayWDT": {
         "Value": "征服世界之旅"
     },
     "GUI:MyInformation": {
-        "Value": "我的资料"
+        "Value": "我的信息"
     },
     "GUI:UserProfileLabel": {
-        "Value": "%hs的个人档案"
+        "Value": "%hs的个人资料"
     },
     "GUI:GameWins": {
         "Value": "胜场："
@@ -3135,7 +3135,7 @@
         "Value": "配对状况"
     },
     "GUI:MatchingProgress2": {
-        "Value": "配对中 .."
+        "Value": "匹配中..."
     },
     "GUI:MatchFound": {
         "Value": "找到配对！"
@@ -3153,13 +3153,13 @@
         "Value": "战团/等级"
     },
     "GUI:MyInformationLabel": {
-        "Value": "我的资料"
+        "Value": "我的信息"
     },
     "GUI:Persona": {
         "Value": "角色："
     },
     "GUI:AutoLogin": {
-        "Value": "使用此帐号自动登录"
+        "Value": "使用此账号自动登录"
     },
     "GUI:BuddyTitle": {
         "Value": "好友状况"
@@ -3375,7 +3375,7 @@
         "Value": "无法启动，请重新安装。"
     },
     "TXT_PREPARECOM_FAILED": {
-        "Value": "一个或以上的 DLL 文件遗失\n或受损。请重新安装。"
+        "Value": "一个或以上的 DLL 文件丢失\n或受损。请重新安装。"
     },
     "TXT_NO_SOUND_CARD": {
         "Value": "未发现兼容声卡"
@@ -3447,13 +3447,13 @@
         "Value": "截取游戏画面。（以 'SCRNxxxx.PCX' 文件格式保存在红色警戒 2 的安装文件夹中。）"
     },
     "TXT_SENDING_GO": {
-        "Value": "传送开始游戏请求 - 请稍候 .."
+        "Value": "传送开始游戏请求 - 请稍候..."
     },
     "TXT_WAITING_GO": {
-        "Value": "等待开始游戏回应 - 请稍候 .."
+        "Value": "等待开始游戏响应 - 请稍候..."
     },
     "TXT_SENDING_GO_ACK": {
-        "Value": "传送开始游戏确认 - 请稍候 .."
+        "Value": "传送开始游戏确认 - 请稍候..."
     },
     "TXT_CWAIT_STAR70": {
         "Value": "*70"
@@ -3612,16 +3612,16 @@
         "Value": "重新连接发生错误！"
     },
     "TXT_PACKET_TOO_LATE": {
-        "Value": "文件封包接收超时！"
+        "Value": "数据包接收超时！"
     },
     "TXT_USER_SIGNED_OFF": {
-        "Value": "玩家登出了！"
+        "Value": "玩家注销了！"
     },
     "TXT_POWER_DRAIN": {
         "Value": "电力=%d\n负载=%d"
     },
     "TXT_STAND_BY": {
-        "Value": "请稍候 .."
+        "Value": "请稍候..."
     },
     "TXT_LOW_POWER": {
         "Value": "电力不足 - 生产减缓"
@@ -3666,7 +3666,7 @@
         "Value": "连接到%s中断，正在尝试重新连接。"
     },
     "TXT_WAITING_FOR_CONNECTIONS": {
-        "Value": "等待所有玩家进入游戏 .."
+        "Value": "等待所有玩家进入游戏..."
     },
     "TXT_TIME_ALLOWED": {
         "Value": "允许的时间：%02d秒"
@@ -3687,7 +3687,7 @@
         "Value": "继续"
     },
     "TXT_QUEUE_FULL": {
-        "Value": "资料排程溢流"
+        "Value": "数据队列溢出"
     },
     "TXT_SPECIAL_WARNING": {
         "Value": "%s改变了游戏选项！"
@@ -3702,13 +3702,13 @@
         "Value": "磁盘空间不足以保存游戏。请删除之前保存的游戏，释放部分磁盘空间，然后再试一次。"
     },
     "TXT_LOADING": {
-        "Value": "任务读取中。请稍候 ..."
+        "Value": "任务读取中。请稍候..."
     },
     "TXT_LOBBY": {
         "Value": "大厅"
     },
     "TXT_SAVING_GAME": {
-        "Value": "任务保存中 - 请稍候 ..."
+        "Value": "任务保存中 - 请稍候..."
     },
     "TXT_GAME_FULL": {
         "Value": "游戏人数满了。"
@@ -3732,49 +3732,49 @@
         "Value": "%s的游戏正在进行中。"
     },
     "TXT_NO_DIAL_TONE": {
-        "Value": "没有拨号音。请确定数据机已经连接到电话线上，再试一次。"
+        "Value": "没有拨号音。请确定调制解调器已经连接到电话线上，并再试一次。"
     },
     "TXT_CONNECTING": {
-        "Value": "连接中 .."
+        "Value": "连接中..."
     },
     "TXT_SELECT_SETTINGS": {
         "Value": "请选择'游戏设置'来配置默认选项"
     },
     "TXT_ANSWERING": {
-        "Value": "回应中 .."
+        "Value": "响应中..."
     },
     "TXT_INITIALIZING_MODEM": {
-        "Value": "启动数据机 .. 请稍候"
+        "Value": "启动调制解调器...请稍候"
     },
     "TXT_ERROR_NO_INIT": {
-        "Value": "错误 - 数据机并未回应启动码。"
+        "Value": "错误 - 调制解调器并未响应启动码。"
     },
     "TXT_ERROR_NO_DISABLE": {
-        "Value": "错误 - 无法关闭数据机自动回应功能。"
+        "Value": "错误 - 无法关闭调制解调器自动响应功能。"
     },
     "TXT_ERROR_TOO_MANY": {
-        "Value": "错误 - 启动数据机时遭遇太多错误 - 放弃中。"
+        "Value": "错误 - 启动调制解调器时遭遇太多错误 - 放弃中。"
     },
     "TXT_ERROR_ERROR": {
-        "Value": "错误 - 数据机回传错误状态。"
+        "Value": "错误 - 调制解调器返回了错误状态。"
     },
     "TXT_ERROR_TIMEOUT": {
         "Value": "错误 - 超过连接等待时间。"
     },
     "TXT_RECEIVING_SCENARIO": {
-        "Value": "自主机电脑接收关卡档案。"
+        "Value": "从主机电脑接收关卡。"
     },
     "TXT_SENDING_SCENARIO": {
         "Value": "传送关卡给远方玩家。"
     },
     "TXT_NO_FLOW_CONTROL_RESPONSE": {
-        "Value": "错误 - 数据机无法回应资料溢流控制指令。Windows 设置可能不正确。"
+        "Value": "错误 - 调制解调器无法响应流控制指令。Windows 设置可能不正确。"
     },
     "TXT_NO_COMP_DISABLE_RESPONSE": {
-        "Value": "错误 - 数据机无法回应取消压缩资料指令。Windows 设置可能不正确。"
+        "Value": "错误 - 调制解调器无法响应取消数据压缩指令。Windows 设置可能不正确。"
     },
     "TXT_NO_EC_DISABLE_RESPONSE": {
-        "Value": "错误 - 数据机无法回应取消错误校正指令。Windows 设置可能不正确。"
+        "Value": "错误 - 调制解调器无法响应取消错误校正指令。Windows 设置可能不正确。"
     },
     "TXT_UNABLE_TO_OPEN_PORT": {
         "Value": "无效的连接端口或连接端口正在使用中"
@@ -3789,13 +3789,13 @@
         "Value": "启动程序码发生错误"
     },
     "TXT_MODEM_OR_LOOPBACK": {
-        "Value": "无 Null Modem 缆线连结！该缆线为数据机或回圈缆线。"
+        "Value": "无零调制解调器线缆连接！该线缆为调制解调器或回环线缆。"
     },
     "TXT_UNABLE_FIND_MODEM": {
-        "Value": "无法找到数据机，请检查电源及缆线。"
+        "Value": "无法找到调制解调器，请检查电源及缆线。"
     },
     "TXT_NULL_CONNERR_CHECK_CABLES": {
-        "Value": "连接错误！请检查您的线缆。正在尝试重新连接 .."
+        "Value": "连接错误！请检查您的线缆。正在尝试重新连接..."
     },
     "TXT_MODEM_CONNERR_REDIALING": {
         "Value": "连接错误！正在重新拨号..."
@@ -3822,7 +3822,7 @@
         "Value": "COM4 - 2E8"
     },
     "TXT_NO_CARRIER": {
-        "Value": "无传送者。"
+        "Value": "无载波信号。"
     },
     "TXT_SHIP_01": {
         "Value": ""
@@ -3921,7 +3921,7 @@
         "Value": "已启动"
     },
     "TXT_CHARGING": {
-        "Value": "充电中 .."
+        "Value": "充电中..."
     },
     "TXT_YELLOW": {
         "Value": "黄"
@@ -3966,7 +3966,7 @@
         "Value": "已读取数据：%d/%d。"
     },
     "TXT_FINDING_PATCH": {
-        "Value": "寻找更新文件中 .."
+        "Value": "寻找更新文件中..."
     },
     "TXT_NO_SERV_LIST": {
         "Value": "无法取得服务器列表"
@@ -3975,19 +3975,19 @@
         "Value": "此游戏需要更新文件\n您想现在下载吗？"
     },
     "TXT_DOWNLOADING_X_OF_Y": {
-        "Value": "下载文件%d中的%d .."
+        "Value": "下载文件%d中的%d..."
     },
     "TXT_SERVER_ERROR": {
         "Value": "聊天服务器错误"
     },
     "TXT_LOGIN_USED": {
-        "Value": "这组登录资料已有人使用。"
+        "Value": "这组登录信息已有人使用。"
     },
     "TXT_BADPASS": {
-        "Value": "这组登录资料或密码不正确。"
+        "Value": "这组登录信息或密码不正确。"
     },
     "TXT_BANNED": {
-        "Value": "您的帐号暂时被锁了。您想打开浏览器，了解更多信息吗？"
+        "Value": "您的账号暂时被锁了。您希望打开浏览器，了解更多信息吗？"
     },
     "TXT_CANT_CONNECT": {
         "Value": "无法连接到 Westwood Online，请检查网络连接。"
@@ -4065,10 +4065,10 @@
         "Value": "参与%s频道"
     },
     "TXT_SEARCHING": {
-        "Value": "搜寻中 .."
+        "Value": "搜寻中..."
     },
     "TXT_SEARCHING_FOR": {
-        "Value": "搜寻%s .."
+        "Value": "搜寻%s..."
     },
     "TXT_ACCEPTFIRST": {
         "Value": "所有玩家必须接受此设置，游戏才能开始进行。"
@@ -4086,10 +4086,10 @@
         "Value": "显示模式已经更改。如果新显示模式出现问题，请稍等，游戏会自动恢复旧的显示模式。"
     },
     "TXT_APIMISSING": {
-        "Value": "Westwood Online 支援函数库已遗失或无效。请自游戏光碟重新安装共享网络组件。"
+        "Value": "Westwood Online 支持函数库已丢失或无效。请从游戏光碟重新安装共享网络组件。"
     },
     "TXT_APIWRONGVERSION": {
-        "Value": "目前安装的 Westwood Online 支援函数库版本过时。请自游戏光碟重新安装共享网络组件。"
+        "Value": "目前安装的 Westwood Online 支持函数库版本过时。请从游戏光碟重新安装共享网络组件。"
     },
     "TXT_NOTCHANOP": {
         "Value": "您必须是频道操作者才能执行此动作。"
@@ -4137,7 +4137,7 @@
         "Value": "音效关闭，进行中。"
     },
     "TXT_REQ_NICK": {
-        "Value": "请求重新登录 .."
+        "Value": "请求重新登录..."
     },
     "TXT_DISK_NAME": {
         "Value": "尤里的复仇光碟%d"
@@ -4149,7 +4149,7 @@
         "Value": "警告 - 您的磁盘空间严重不足，无法保存游戏。"
     },
     "TXT_SIGNING_OFF": {
-        "Value": "登出 - 请稍候 .."
+        "Value": "注销 - 请稍候..."
     },
     "TXT_CD_DIALOG_1": {
         "Value": "请将尤里的复仇的光碟置入光盘驱动器中。"
@@ -4248,7 +4248,7 @@
         "Value": "您可以像其他玩家一样，重新连到 ISP，然后继续本场游戏。"
     },
     "TXT_RECONNECT_HELP3C": {
-        "Value": "其余玩家并未决定将您自游戏中移除 .."
+        "Value": "其余玩家并未决定将您自游戏中移除..."
     },
     "TXT_RECONNECT_KICK_SELF": {
         "Value": "您无法提议移除自己。点选取消，离开游戏。"
@@ -4296,7 +4296,7 @@
         "Value": "随机地图"
     },
     "TXT_LOADING_GAME1B": {
-        "Value": "补偿环境光源效果 .."
+        "Value": "补偿环境光源效果..."
     },
     "TXT_CONSENT_REQUIRED": {
         "Value": "因为您未满十三岁，我们的隐私权政策要求您取得父母同意的表格，才能继续。点选「确定」以开启网络浏览器到此网页。"
@@ -4305,13 +4305,13 @@
         "Value": "要开始战团锦标赛，需要双方战团有均等的人数。游戏中每个人都得参与战团。"
     },
     "TXT_DISABLED": {
-        "Value": "您的帐号暂时被冻结。确认您注册时输入的电子邮件是正确的。您想开启网络浏览器以取得更多资讯吗？"
+        "Value": "您的账号暂时被冻结。确认您注册时输入的电子邮件是正确的。您希望开启网络浏览器以取得更多信息吗？"
     },
     "TXT_SERIALBANNED": {
         "Value": "（不再使用）"
     },
     "TXT_SERIALDUP": {
-        "Value": "您的序列号目前有人使用中。要开启网络浏览器以取得更多资讯吗？"
+        "Value": "您的序列号目前有人使用中。要开启网络浏览器以取得更多信息吗？"
     },
     "TXT_SEL_USER": {
         "Value": "您必须先选择一名玩家，才能踢除 / 忽略 / 禁止他。"
@@ -4344,7 +4344,7 @@
         "Value": "游戏版本不兼容。要确定使用的是否为最新版本，请参考 www.westwood.com"
     },
     "TXT_NO_EXPANSION_SCENARIO": {
-        "Value": "错误 - 其他玩家没有扩充场景档案。"
+        "Value": "错误 - 其他玩家没有扩充场景。"
     },
     "TXT_SCENARIO_ERROR": {
         "Value": "找不到兼容的的场景文件。场景文件可能已损毁。"
@@ -4380,7 +4380,7 @@
         "Value": "分散所选物件。"
     },
     "TXT_CENTER_VIEW": {
-        "Value": "观点置中"
+        "Value": "画面置中"
     },
     "TXT_CENTER_VIEW_DESC": {
         "Value": "以所选物体为准，画面置中。"
@@ -4395,25 +4395,25 @@
         "Value": "号码无效。"
     },
     "TXT_DIALING": {
-        "Value": "拨号中 .."
+        "Value": "拨号中..."
     },
     "TXT_DIALING_CANCELED": {
         "Value": "取消拨号"
     },
     "TXT_WAITING_FOR_CALL": {
-        "Value": "等待拨进 .."
+        "Value": "等待拨进..."
     },
     "TXT_ANSWERING_CANCELED": {
-        "Value": "取消应答 .."
+        "Value": "取消应答..."
     },
     "TXT_SYSTEM_NOT_RESPONDING": {
-        "Value": "其他电脑并无回应！"
+        "Value": "其他电脑没有响应！"
     },
     "TXT_NO_COMP_ENABLE_RESPONSE": {
         "Value": "错误 - 调制解调器没有对压缩命令进行响应。您的 Windows 设置可能不正确。"
     },
     "TXT_NO_EC_ENABLE_RESPONSE": {
-        "Value": "错误 - 数据机无法回应纠正传送错误指令。Windows 设置可能不正确。"
+        "Value": "错误 - 调制解调器无法响应纠正传送错误指令。Windows 设置可能不正确。"
     },
     "TXT_CREATE_TEAM_DESC": {
         "Value": "从目前选定的部队里，建立%d队。"
@@ -4473,7 +4473,7 @@
         "Value": "您获胜了！"
     },
     "TXT_CENTER_BASE_DESC": {
-        "Value": "将基地观点置中。"
+        "Value": "以玩家的基地为准，画面置中。"
     },
     "TXT_ALLIANCE": {
         "Value": "同盟"
@@ -4566,7 +4566,7 @@
         "Value": "建筑物选择列表向下滚动。"
     },
     "TXT_SIGNOFF": {
-        "Value": "登出 - 请稍候 .."
+        "Value": "注销 - 请稍候..."
     },
     "TXT_RSIDEBAR_DOWN": {
         "Value": "部队列表向下滚动"
@@ -4770,7 +4770,7 @@
         "Value": "您加入了%s频道"
     },
     "TXT_REQUIRED_FIELD": {
-        "Value": "找不到需要的文件，或文件无效。"
+        "Value": "找不到需要的字段，或字段无效。"
     },
     "TXT_SCENARIO_COLON": {
         "Value": "剧情关卡："
@@ -5695,7 +5695,7 @@
         "Extra": "u09e LBL"
     },
     "VOX:cevau10": {
-        "Value": "苏联基于某种未知的原因，成功的安并控制了在北太平洋冰冷海水里找到的巨型乌贼。当心，指挥官，他们能让船舰动弹不得，只要几分钟的时间，就能将之拖入海中。",
+        "Value": "苏联人不知以何种方式成功安抚并控制了北太平洋冷水域中发现的巨型乌贼。指挥官，要小心，它们能在几分钟内使船只瘫痪并将其拖入水下。",
         "Extra": "u10e LBL"
     },
     "VOX:cevau11": {
@@ -5871,7 +5871,7 @@
         "Extra": "015e LBL"
     },
     "VOX:csof016": {
-        "Value": "建立作战控制_待机。",
+        "Value": "正在建立战场控制_请稍后。",
         "Extra": "016e LBL"
     },
     "VOX:csof017": {
@@ -6351,7 +6351,7 @@
         "Extra": "u11e LBL"
     },
     "VOX:csofu12": {
-        "Value": "我方的装甲运输船与盟军的两栖运输船不同，其装甲更加厚实。能确实将您的人员及部队运送到目的地。",
+        "Value": "我方的装甲运输船与盟军的两栖运输船不同，其具有更加厚实装甲。能确保将您的人员及部队运送到目的地。",
         "Extra": "u12e LBL"
     },
     "VOX:csofu13": {
@@ -6787,7 +6787,7 @@
         "Extra": "seae LBL"
     },
     "VOX:icisseb": {
-        "Value": "我该到那里？",
+        "Value": "我该到哪里？",
         "Extra": "sebe LBL"
     },
     "VOX:icissec": {
@@ -7427,7 +7427,7 @@
         "Extra": "sege LB"
     },
     "VOX:uinst01": {
-        "Value": "警告：侦测到军事软件，需要立即清除最高机密！",
+        "Value": "警告：侦测到军事软件，需要最高机密许可！",
         "Extra": "t01e LBL"
     },
     "VOX:uinst02": {
@@ -7863,7 +7863,7 @@
         "Extra": "sebe LBL"
     },
     "VOX:itansec": {
-        "Value": "敌人在那里？",
+        "Value": "敌人在哪里？",
         "Extra": "sece LBL"
     },
     "VOX:itansed": {
@@ -7939,7 +7939,7 @@
         "Extra": "sece LBL"
     },
     "VOX:itesata": {
-        "Value": "2.000伏特来了。",
+        "Value": "2000伏特来了。",
         "Extra": "atae LBL"
     },
     "VOX:itesatb": {
@@ -8103,11 +8103,11 @@
         "Extra": "seee LBL"
     },
     "VOX:ma1ev01": {
-        "Value": "别忘记，长官！您可以用自己觉得合适的方式来指挥谭雅，但我们可承受不起失去谭雅的损失。您必须在布雷利要塞被摧毁之前赶到那里。",
+        "Value": "别忘记，长官！您可以用自己觉得合适的方式来指挥谭雅，但我们可承受不起失去谭雅的损失。您必须在布拉德利要塞被摧毁之前赶到那里。",
         "Extra": "v01e LBL"
     },
     "VOX:ma1ev02": {
-        "Value": "看来桥被炸了。我们必须再找别的路到布雷利要塞。",
+        "Value": "看来桥被炸了。我们必须再找别的路到布拉德利要塞。",
         "Extra": "v02e LBL"
     },
     "VOX:ma1ev03": {
@@ -8115,11 +8115,11 @@
         "Extra": "v03e LBL"
     },
     "VOX:ma1ev04": {
-        "Value": "听起来不太好，长官！我们接下来到布雷利要塞的路程得要加倍赶路才能及时赶到！",
+        "Value": "听起来不太好，长官！我们接下来到布拉德利要塞的路程得要加倍赶路才能及时赶到！",
         "Extra": "v04e LBL"
     },
     "VOX:ma1ev05": {
-        "Value": "恭喜！我们与布雷利要塞重新恢复联系了！基地和部队的指挥权已经交接于你。",
+        "Value": "恭喜！我们与布拉德利要塞重新恢复联系了！基地和部队的指挥权已经交接于你。",
         "Extra": "v05e LBL"
     },
     "VOX:ma1ev06": {
@@ -8131,7 +8131,7 @@
         "Extra": "v07e LBL"
     },
     "VOX:ma1ev08": {
-        "Value": "注意这些油桶 - 看来很不稳定！或许我们可用利用这些油桶 ...",
+        "Value": "注意这些油桶 - 看来很不稳定！或许我们可用利用这些油桶...",
         "Extra": "v08e LBL"
     },
     "VOX:ma1ev09": {
@@ -8151,7 +8151,7 @@
         "Extra": "v12e LBL"
     },
     "VOX:ma1ev13": {
-        "Value": "您必须尽快抵达布雷利要塞！",
+        "Value": "您必须尽快抵达布拉德利要塞！",
         "Extra": "v13e LBL"
     },
     "VOX:ma1ev14": {
@@ -8171,7 +8171,7 @@
         "Extra": "v17e LBL"
     },
     "VOX:ma1ev18": {
-        "Value": "指挥官，您必须尽快抵达布雷利要塞...等等...那些无畏级战舰在干嘛？他们在攻击自由女神像吗？您一定要阻止他们！",
+        "Value": "指挥官，您必须尽快抵达布雷德利要塞...等等...那些无畏级战舰在干嘛？他们在攻击自由女神像吗？您一定要阻止他们！",
         "Extra": "v18e LBL"
     },
     "VOX:ma1ev19": {
@@ -8183,7 +8183,7 @@
         "Extra": "v20e LBL"
     },
     "VOX:ma1ev21": {
-        "Value": "长官，布雷利要塞刚刚传来报告，说苏联已经在此东南方建立了一个小型补给基地。要是我们可以消灭这个补给基地，或许可以暂时阻止苏联的进军！",
+        "Value": "长官，布拉德利要塞刚刚传来报告，说苏联已经在此东南方建立了一个小型补给基地。要是我们可以消灭这个补给基地，或许可以暂时阻止苏联的进军！",
         "Extra": "v21e LBL"
     },
     "VOX:ma1ev22": {
@@ -8459,7 +8459,7 @@
         "Extra": "e01e LBL"
     },
     "VOX:macve02": {
-        "Value": "我们在那里？",
+        "Value": "我们在哪里？",
         "Extra": "e02e LBL"
     },
     "VOX:macve03": {
@@ -8499,7 +8499,7 @@
         "Extra": "o09e LBL"
     },
     "VOX:ms1so10": {
-        "Value": "小心这些汽油桶！要是出了任何差错，它们一定会造成大爆炸。说不定我们可以利用它们来制造我们的优势 ..",
+        "Value": "小心这些汽油桶！要是出了任何差错，它们一定会造成大爆炸。说不定我们可以利用它们来制造我们的优势...",
         "Extra": "o10e LBL"
     },
     "VOX:ms1so11": {
@@ -8823,7 +8823,7 @@
         "Extra": "s02e LBL"
     },
     "VOX:mt2ds03": {
-        "Value": "现在既然您有一座建造场，就可以开始建造基地了。在画面右手边您可以看到出现了一个发电厂的图标。鼠标左键点击图标，开始建造发电厂。注意查看你所剩余的资金在建造发电厂时如何逐渐减少。每一栋建筑都有建造费用。当发电厂建造完毕后，鼠标左键点击其图标，再左键点击建造厂附近的一块空地。要是您在尝试的摆设发电厂的地方看见了红色方块，那就表示您要建造发电厂的地方离建造厂太远，或者是您不能在崎岖不平的地面建造。",
+        "Value": "现在既然您有一座建造场，就可以开始建造基地了。在画面右手边您可以看到出现了一个发电厂的图标。鼠标左键点击图标，开始建造发电厂。注意查看你所剩余的资金在建造发电厂时如何逐渐减少。每一栋建筑都有建造费用。当发电厂建造完毕后，鼠标左键点击其图标，再左键点击建造场附近的一块空地。要是您在尝试的摆设发电厂的地方看见了红色方块，那就表示您要建造发电厂的地方离建造场太远，或者是您不能在崎岖不平的地面建造。",
         "Extra": "s03e LBL"
     },
     "VOX:mt2ds04": {
@@ -8895,7 +8895,7 @@
         "Extra": "s20e LBL"
     },
     "VOX:mt2ds21": {
-        "Value": "注意看，您的部队中有位士兵，每次被选到的时候，身上就会出现一个特别的符号。这个部队就是老鸟部队。老鸟更强悍，比一般士兵射击更准确。双击处于防守态的士兵，命令他移动。现在命令您的部队沿着马路往上走。",
+        "Value": "注意看，您的部队中有位士兵，每次被选到的时候，身上就会出现一个特别的符号。这个单位就是老兵。老兵更强悍，比一般士兵射击更准确。双击处于防守态的士兵，命令他移动。现在命令您的部队沿着马路往上走。",
         "Extra": "s21e LBL"
     },
     "VOX:tauam01": {
@@ -9427,7 +9427,7 @@
         "Extra": "sede LBL"
     },
     "VOX:vgrasee": {
-        "Value": "指挥官，目的地是那里？",
+        "Value": "指挥官，目的地是哪里？",
         "Extra": "seee LBL"
     },
     "VOX:vgrsata": {
@@ -9842,7 +9842,7 @@
         "Value": "您的最后命令终止了此部队路径点路线。"
     },
     "MSG:PostLoop": {
-        "Value": "无法在已经进入回圈的部队上增加新的命令。"
+        "Value": "无法在已经进入循环的部队上增加新的命令。"
     },
     "MSG:NodeMaximum": {
         "Value": "您已经达到此路线最高路径点数目。"
@@ -9863,10 +9863,10 @@
         "Value": "合并的部队会执行从合并节点之后的指令。"
     },
     "MSG:PlanningModeLoop1": {
-        "Value": "点选此节点，设立巡逻回圈。"
+        "Value": "点选此节点，设立巡逻循环。"
     },
     "MSG:PlanningModeLoop2": {
-        "Value": "只要至少还有一名成员，巡逻回圈就会持续下去。"
+        "Value": "只要至少还有一名成员，巡逻循环就会持续下去。"
     },
     "MSG:PlanningModeDelete1": {
         "Value": "点选此节点，选取之。"
@@ -9878,19 +9878,19 @@
         "Value": "此路径点路线属于您的盟国。"
     },
     "MSG:PlanningModeAlreadyInLoop1": {
-        "Value": "无法连结到这个节点，"
+        "Value": "无法连接到这个节点，"
     },
     "MSG:PlanningModeAlreadyInLoop2": {
-        "Value": "因为选定的部队已经在巡逻回圈中。"
+        "Value": "因为选定的部队已经在巡逻循环中。"
     },
     "MSG:PlanningModeTrailingNode": {
-        "Value": "巡逻回圈至少必须拥有三或三个以上的路径点。"
+        "Value": "巡逻循环必须至少拥有三或三个以上的路径点。"
     },
     "MSG:PlanningModeMixedLoop1": {
-        "Value": "无法以不包含整个选取范围内的分枝"
+        "Value": "无法使用不包含整个选择的分支"
     },
     "MSG:PlanningModeMixedLoop2": {
-        "Value": "全部选择。"
+        "Value": "进行循环。"
     },
     "MSG:AttackMoveUnsupported": {
         "Value": "此选择范围内有个成员无法使用攻击动作。"
@@ -9965,16 +9965,16 @@
         "Value": "%s 给予 %d 资金至 %s"
     },
     "GUI:NoUnderParTitle": {
-        "Value": "注意：错过低于平均图块。"
+        "Value": "注意：缺失低于平均图块。"
     },
     "GUI:NoUnderParMessage": {
-        "Value": "注意：错过低于平均信息。"
+        "Value": "注意：缺失低于平均信息。"
     },
     "GUI:NoOverParTitle": {
-        "Value": "注意：错过高于平均图块。"
+        "Value": "注意：缺失高于平均图块。"
     },
     "GUI:NoOverParMessage": {
-        "Value": "注意：错过高于平均信息。"
+        "Value": "注意：缺失高于平均信息。"
     },
     "GUI:ParTitleALL01": {
         "Value": "您的官阶是：中士"
@@ -10052,7 +10052,7 @@
         "Value": "您的官阶是：总司令"
     },
     "GUI:UnderParMsgALL01": {
-        "Value": "您闪电般的反击，阻挠了苏联的侵攻。"
+        "Value": "您闪电般的反击，阻挠了苏联的侵略。"
     },
     "GUI:OverParMsgALL01": {
         "Value": "您几乎没有阻挡苏联的进军。"
@@ -10289,7 +10289,7 @@
         "Value": "您在这场任务中达成的摧毁数。"
     },
     "Tip:Cheer": {
-        "Value": "喝采"
+        "Value": "喝彩"
     },
     "Cmnd:Delete": {
         "Value": "删除"
@@ -10346,10 +10346,10 @@
         "Value": "依部队类型，选择部队（以造价排列）。"
     },
     "Cmnd:AllCheer": {
-        "Value": "喝采"
+        "Value": "喝彩"
     },
     "Cmnd:AllCheerDesc": {
-        "Value": "命令部队为您的明智领导喝采。"
+        "Value": "命令部队为您的明智领导喝彩。"
     },
     "Name:Alligator": {
         "Value": "鳄鱼"
@@ -10700,13 +10700,13 @@
         "Value": "\n---------\n"
     },
     "WOLNewNickname": {
-        "Value": "新帐号"
+        "Value": "新账号"
     },
     "WOL:NewAccountFetch": {
-        "Value": "连接到帐号服务器"
+        "Value": "连接到账号服务器"
     },
     "GUI:ManageAccount": {
-        "Value": "管理帐号"
+        "Value": "管理账号"
     },
     "GUI:LadderWins": {
         "Value": "胜场："
@@ -10730,10 +10730,10 @@
         "Value": "错误：找不到配对服务器"
     },
     "WOL:MatchGameStarting": {
-        "Value": "游戏开始中 .."
+        "Value": "游戏开始中..."
     },
     "WOL:MatchFailRank": {
-        "Value": "无法在您设置的水准范围内找到合适对手 .."
+        "Value": "无法在您设置的水准范围内找到合适对手..."
     },
     "WOL:MatchFailPing": {
         "Value": "无法找到可接受的连接速度的对手..."
@@ -10757,7 +10757,7 @@
         "Value": "找到与 %hs 相配的游戏"
     },
     "WOL:MatchCreatingGame": {
-        "Value": "建立游戏中 .."
+        "Value": "建立游戏中..."
     },
     "WOL:MatchWaitingForJoin": {
         "Value": "等待 %hs 参与游戏"
@@ -10814,7 +10814,7 @@
         "Value": "进行游戏中"
     },
     "WOL:FetchingBuddyList": {
-        "Value": "取得好友名单"
+        "Value": "获取好友列表"
     },
     "STT:EmoteButton": {
         "Value": "发送情感消息。"
@@ -10838,7 +10838,7 @@
         "Value": "要是您想再看到这个问题，请勾选此方块"
     },
     "STT:WOLAutoLoginYes": {
-        "Value": "自动使用此帐号。"
+        "Value": "自动使用此账号。"
     },
     "STT:WOLAutoLoginNo": {
         "Value": "总是输入昵称及密码。"
@@ -10877,7 +10877,7 @@
         "Value": "将选定好友自名单中移除"
     },
     "STT:WOLBuddyRefresh": {
-        "Value": "取得好友的最新资料"
+        "Value": "获取好友的最新状态"
     },
     "STT:WOLBuddyBack": {
         "Value": "回到前一个画面"
@@ -10889,7 +10889,7 @@
         "Value": "点选参与此大厅"
     },
     "STT:WOLBuddy": {
-        "Value": "移往您的好友名单"
+        "Value": "前往您的好友列表"
     },
     "STT:WOLCLANLADDER": {
         "Value": "回顾玩家及战团的排名"
@@ -10910,16 +10910,16 @@
         "Value": "以此昵称及密码登录 Westwood Online"
     },
     "STT:WOLNewAccount": {
-        "Value": "设立新的 Westwood Online 帐号"
+        "Value": "创建新的 Westwood Online 账号"
     },
     "STT:WOLLoginForget": {
-        "Value": "将此帐号自电脑档案中移除"
+        "Value": "将该账号从电脑存档中删除"
     },
     "STT:WOLLoginBack": {
         "Value": "回到 Westwood Online 菜单"
     },
     "STT:WOLManageAccount": {
-        "Value": "观看并改变帐号资讯"
+        "Value": "观看并改变账号信息"
     },
     "STT:WOLMatchOutput": {
         "Value": "显示您配对请求的状态"
@@ -10928,7 +10928,7 @@
         "Value": "回到 Westwood Online 菜单"
     },
     "STT:WOLMyInformationName": {
-        "Value": "选择已保存的帐号昵称"
+        "Value": "选择已保存的账号昵称"
     },
     "STT:WOLMyInformationServer": {
         "Value": "选择您偏好的服务器"
@@ -10943,7 +10943,7 @@
         "Value": "选择您偏好在游戏中使用的颜色"
     },
     "STT:WOLMyInformationAutoLogin": {
-        "Value": "如果您想自动使用此帐号，就勾选此方块"
+        "Value": "如果您想自动使用此账号，就勾选此方块"
     },
     "STT:WOLMyInformationWins": {
         "Value": "您已经胜利的场次"
@@ -11012,7 +11012,7 @@
         "Value": "开始一场征服世界之旅游戏"
     },
     "STT:WOLWelcomeMyInformation": {
-        "Value": "自定您的 Westwood Online 帐号"
+        "Value": "自定您的 Westwood Online 账号"
     },
     "STT:WOLWelcomeBack": {
         "Value": "回到主菜单"
@@ -11042,7 +11042,7 @@
         "Value": "取消并回到前一个画面"
     },
     "STT:WOLNewNickOk": {
-        "Value": "请求此昵称及密码之帐号"
+        "Value": "请求该账号的昵称和密码"
     },
     "STT:WOLNewNickCancel": {
         "Value": "取消并回到前一个画面"
@@ -11060,7 +11060,7 @@
         "Value": "在此输入父母或监护人的电子邮件地址"
     },
     "STT:WOLNewNickSellInfo": {
-        "Value": "勾选此处，允许我们分享您的资料"
+        "Value": "勾选此处，允许我们分享您的信息"
     },
     "Name:ALL01": {
         "Value": "军事行动：孤独守卫"
@@ -11168,22 +11168,22 @@
         "Value": "军事行动：家乡防线 - 地点：海参崴"
     },
     "LoadMsg:Sov05": {
-        "Value": "军事行动：灯火之城 - 地点：法国巴黎"
+        "Value": "军事行动：灯火之城 - 地点：法国，巴黎"
     },
     "LoadMsg:Sov06": {
-        "Value": "军事行动：深海切割 - 地点：夏威夷珍珠港"
+        "Value": "军事行动：深海切割 - 地点：夏威夷，珍珠港"
     },
     "LoadMsg:Sov07": {
-        "Value": "军事行动：超时空防御战 - 地点：俄国乌拉尔山"
+        "Value": "军事行动：超时空防御战 - 地点：俄国，乌拉尔山"
     },
     "LoadMsg:Sov08": {
         "Value": "军事行动：首都之辱 - 地点：华盛顿特区"
     },
     "LoadMsg:Sov09": {
-        "Value": "军事行动：狐狸与猎犬 - 地点：德州圣安东尼奥市"
+        "Value": "军事行动：狐狸与猎犬 - 地点：德州，圣安东尼奥"
     },
     "LoadMsg:Sov10": {
-        "Value": "军事行动：天气之师 - 地点：美国维尔京群岛"
+        "Value": "军事行动：天气之师 - 地点：美属维尔京群岛"
     },
     "LoadMsg:Sov11": {
         "Value": "军事行动：红色革命 - 地点：莫斯科"
@@ -11195,7 +11195,7 @@
         "Value": "军事行动：孤独守卫 - 地点：纽约"
     },
     "LoadMsg:ALL02": {
-        "Value": "军事行动：拂晓之鹰 - 地点：科罗拉多空军学院"
+        "Value": "军事行动：拂晓之鹰 - 地点：科罗拉多，空军学院"
     },
     "LoadMsg:ALL03": {
         "Value": "军事行动：为长官欢呼 - 地点：华盛顿特区"
@@ -11210,16 +11210,16 @@
         "Value": "军事行动：自由 - 地点：华盛顿特区"
     },
     "LoadMsg:ALL07": {
-        "Value": "军事行动：深海 - 地点：夏威夷珍珠港"
+        "Value": "军事行动：深海 - 地点：夏威夷，珍珠港"
     },
     "LoadMsg:ALL08": {
-        "Value": "军事行动：自由门户 - 地点：密苏里州圣路易斯市"
+        "Value": "军事行动：自由门户 - 地点：密苏里，圣路易斯"
     },
     "LoadMsg:ALL09": {
-        "Value": "军事行动：太阳神殿 - 地点：墨西哥图卢姆"
+        "Value": "军事行动：太阳神殿 - 地点：墨西哥，图卢姆"
     },
     "LoadMsg:ALL10": {
-        "Value": "军事行动：海市蜃楼 - 地点：德国黑森林"
+        "Value": "军事行动：海市蜃楼 - 地点：德国，黑森林"
     },
     "LoadMsg:ALL11": {
         "Value": "军事行动：核爆辐射尘 - 地点：佛罗里达礁岛群"
@@ -11357,7 +11357,7 @@
         "Value": "提示：超时空采矿车会采集金矿，然后自动传送回冶炼厂"
     },
     "MISSION:ALL01o": {
-        "Value": "提示：选择步兵页面以检视增加生产选项"
+        "Value": "提示：选择步兵页面以查看新增加的生产选项"
     },
     "MISSION:ALL01p": {
         "Value": "提示：下令工程师进入维修小屋，以修复桥梁"
@@ -11411,7 +11411,7 @@
         "Value": "提示：留意不要摧毁白宫...我们不希望总统受到丝毫伤害"
     },
     "MISSION:All03e": {
-        "Value": "任务失败：干得好啊，指挥官。您成功将美国总统压碎在混凝土厚板之下 .."
+        "Value": "任务失败：干得好啊，指挥官。您成功将美国总统压碎在混凝土厚板之下..."
     },
     "MISSION:All03f": {
         "Value": "提示：派遣一名工程师进入受损平民建筑，将其修复"
@@ -11504,7 +11504,7 @@
         "Value": "-- 作战控制连线 --"
     },
     "MISSION:All05r": {
-        "Value": "在波兰某处 .."
+        "Value": "在波兰某处..."
     },
     "MISSION:All05s": {
         "Value": "侦测到信号弹"
@@ -11552,7 +11552,7 @@
         "Value": "由苏联无畏级战舰领军的一支小型舰队已经抵达。"
     },
     "MISSION:Sov07k": {
-        "Value": "在宣传卡车残骸中发现了盟军侦查卫星地图……正在更新地图。"
+        "Value": "在宣传卡车残骸中发现了盟军侦查卫星地图...正在更新地图。"
     },
     "MISSION:Sov08c": {
         "Value": "摧毁纪念碑来获取克里姆林宫的奖励！"
@@ -11576,7 +11576,7 @@
         "Value": "嘿！你不该到这里来的！"
     },
     "MISSION:Sov11f": {
-        "Value": "13567"
+        "Value": "1998年11月21日"
     },
     "MISSION:Sov11g": {
         "Value": "发现升级工具箱！"
@@ -11624,7 +11624,7 @@
         "Value": "苏联军队威胁着亚特兰大。找出并摧毁他们的补给基地。"
     },
     "COOP:Camp14v": {
-        "Value": "指挥官日志 - 美国乔治亚州：战争开始的第四周，苏联和古巴军队集结在乔治亚州外围。他们的任务很简单，采集资源，补充损伤惨重的苏联师团，然后攻入未设防的亚特兰大市。苏联的政策极为清楚，凡有抵抗一定严惩，必须给美国叛军一点教训。在苏联准备好之前，一位英国间谍传话给美军指挥官，这场战役是协同作战。"
+        "Value": "指挥官日志 - 美国，乔治亚州：战争开始的第四周，苏联和古巴军队集结在乔治亚州外围。他们的任务很简单，采集资源，补充损伤惨重的苏联师团，然后攻入未设防的亚特兰大市。苏联的政策极为清楚，凡有抵抗一定严惩，必须给美国叛军一点教训。在苏联准备好之前，一位英国间谍传话给美军指挥官，这场战役是协同作战。"
     },
     "COOP:Camp15": {
         "Value": "苏联在墨西哥边境有基地组成的网络。摧毁这些基地，结束战争。"
@@ -11981,25 +11981,25 @@
         "Value": "点选此节点，将选定部队合并到此作战计划中。合并部队时，在合并节点之后，执行指令。"
     },
     "MSG:PlanningModeLoopX": {
-        "Value": "点选此节点，设立巡逻回圈。巡逻回圈在仍有成员的情况下，会一直持续下去。"
+        "Value": "点选此节点，设立巡逻循环。巡逻回圈在仍有成员的情况下，会一直持续下去。"
     },
     "MSG:PlanningModeDeleteX": {
         "Value": "点选此节点，选择之。选定的节点可以用 Del 键加以删除。"
     },
     "MSG:PlanningModeAlreadyInLoopX": {
-        "Value": "无法连结到此节点，因为选定部队已经在巡逻回圈中。"
+        "Value": "无法连接到此节点，因为选定部队已经在巡逻循环中。"
     },
     "MSG:PlanningModeMixedLoopX": {
-        "Value": "无法设立未选择整体的分支回圈。"
+        "Value": "无法使用不包含整个选择的分支进行循环。"
     },
     "MSG:PlanningModeNoPatrolLoop1": {
-        "Value": "并未设立巡逻回圈，因为至少要有一名部队。"
+        "Value": "未能设立巡逻循环，因为至少要有一名部队。"
     },
     "MSG:PlanningModeNoPatrolLoop2": {
         "Value": "无法使用移动攻击。"
     },
     "MSG:PlanningModeNoPatrolLoopX": {
-        "Value": "并未设立巡逻回圈，因为参与的部队至少有一名无法使用移动攻击。"
+        "Value": "并未设立巡逻循环，因为参与的部队至少有一名无法使用移动攻击。"
     },
     "MSG:PlanningModeNoJoinPatrol1": {
         "Value": "无法参与巡逻回圈，因为至少要有一名部队在选取范围内。"
@@ -12245,7 +12245,7 @@
         "Value": "V3 导弹"
     },
     "Name:TAXI": {
-        "Value": "计程车"
+        "Value": "出租车"
     },
     "NAME:CruiseShip": {
         "Value": "游轮"
@@ -12320,7 +12320,7 @@
         "Value": "牛肉堡王"
     },
     "GUI:Generating": {
-        "Value": "产生中 .."
+        "Value": "生成中..."
     },
     "TXT_SAVE_CAMP_AVAILABLE": {
         "Value": "有已保存的战役。"
@@ -12341,7 +12341,7 @@
         "Value": "要添加为好友的昵称"
     },
     "TXT_FETCHING_WDT": {
-        "Value": "取得征服世界之旅资料中"
+        "Value": "获取征服世界之旅信息中"
     },
     "WDTNACampaign": {
         "Value": "北美"
@@ -12353,7 +12353,7 @@
         "Value": "亚洲"
     },
     "TXT_WOL_LOGGING_OUT": {
-        "Value": "自 Westwood Online 上登出"
+        "Value": "从 Westwood Online 上注销"
     },
     "GUI:CreatingChannel": {
         "Value": "建立游戏频道"
@@ -12697,7 +12697,7 @@
         "Value": "读取中"
     },
     "GUI:LoadingEx": {
-        "Value": "读取中 ..."
+        "Value": "读取中..."
     },
     "GUI:DiplomacyMenu": {
         "Value": "外交选项"
@@ -12883,7 +12883,7 @@
         "Value": "PING：%dms"
     },
     "STT:WOLLoginRemember": {
-        "Value": "记住此帐号"
+        "Value": "记住此账号"
     },
     "WOL:QuickMatchResolutionQuery": {
         "Value": "快速配对游戏只能在 640x480 的画面分辨率下进行。要立即改变画面分辨率？"
@@ -12928,13 +12928,13 @@
         "Value": "PING：?"
     },
     "TXT_SERIALUNKNOWN": {
-        "Value": "您的序列号无效。要开启浏览器以取得更多资讯吗？"
+        "Value": "您的序列号无效。要开启浏览器以取得更多信息吗？"
     },
     "TXT_SKUSERIALMISMATCH": {
-        "Value": "您的序列号显示为属于另一款 Westwood Studios 的游戏。要开启浏览器以取得更多资讯吗？"
+        "Value": "您的序列号显示为属于另一款 Westwood Studios 的游戏。要开启浏览器以取得更多信息吗？"
     },
     "TXT_BAD_MAP": {
-        "Value": "主机端选择了一面修改过的地图。这会让主机端占有不公平的优势，无法预先检视地图。"
+        "Value": "主机端选择了一面修改过的地图。这会让主机端占有不公平的优势，无法预先查看地图。"
     },
     "Name:PCOMMANDO": {
         "Value": "心灵突击队"
@@ -12952,7 +12952,7 @@
         "Value": "地狱进行曲2"
     },
     "THEME:C&C In The House": {
-        "Value": "房屋内终极动员令"
+        "Value": "命令与征服登场"
     },
     "MISSION:Sov10b": {
         "Value": "提示：建造一座核弹发射井"
@@ -13078,7 +13078,7 @@
         "Value": "墨西哥"
     },
     "WOL:Locale36": {
-        "Value": "苏俄"
+        "Value": "俄罗斯"
     },
     "WOL:Locale37": {
         "Value": "土耳其"
@@ -13090,7 +13090,7 @@
         "Value": "这块领土目前由苏联掌控"
     },
     "MISSION:All08e": {
-        "Value": "发现加分品，延长时间。"
+        "Value": "发现奖励，时间已延长。"
     },
     "NAME:TOURNEY1": {
         "Value": "正式锦标赛地图（2）"
@@ -13099,7 +13099,7 @@
         "Value": "正式锦标赛地图（4）"
     },
     "NAME:TOURNEY3": {
-        "Value": "正式锦标赛地图（6）"
+        "Value": "正式锦标赛地图（8）"
     },
     "NAME:POLARBEAR": {
         "Value": "北极熊"
@@ -13510,7 +13510,7 @@
         "Value": "包装与人工策划"
     },
     "CRD:Special_Thanks_to": {
-        "Value": "特别鸣谢"
+        "Value": "特别鸣谢..."
     },
     "CRD_TTL:FRANCE": {
         "Value": "法国"
@@ -13753,7 +13753,7 @@
         "Value": "您进入了路径点模式。松开路径点功能键即可退出。"
     },
     "MSG:PlanningModeLoopHelp": {
-        "Value": "您建立了一个巡逻回圈。部队在接获新命令之前，会遵照此回圈行动。"
+        "Value": "您建立了一个巡逻循环。部队在接获新命令之前，会遵照此循环行动。"
     },
     "MSG:PlanningModeDeleteHelp": {
         "Value": "您选择了一个路径点。按下 DEL 键，将其从路线中删除。"
@@ -13912,7 +13912,7 @@
         "Value": "总统先生"
     },
     "NAME:WEEK46": {
-        "Value": "二线是莫斯科"
+        "Value": "莫斯科二号专线"
     },
     "NAME:WEEK47": {
         "Value": "侵略消息获得证实（2-4）"
@@ -13939,7 +13939,7 @@
         "Value": "封闭区"
     },
     "NAME:WEEK55": {
-        "Value": "脱逃（2-4）"
+        "Value": "脱逃（2-3）"
     },
     "NAME:WEEK56": {
         "Value": "发射中的火箭（2-4）"
@@ -13990,7 +13990,7 @@
         "Value": "骄傲与荣耀"
     },
     "NAME:WEEK72": {
-        "Value": "史坦战役"
+        "Value": "永远忠诚"
     },
     "NAME:WEEK73": {
         "Value": "万福玛利亚（2）"
@@ -14164,7 +14164,7 @@
         "Value": "任务目标一：建立一座基地"
     },
     "CRD:FondlyDedicated": {
-        "Value": "热诚奉献 ..."
+        "Value": "热诚奉献..."
     },
     "NAME:CABUNK01": {
         "Value": "混凝土碉堡"
@@ -14317,13 +14317,13 @@
         "Value": "不要再显示此问题"
     },
     "STT:WOLAddBuddyQueryYes": {
-        "Value": "增加此位玩家成为您的好友名单"
+        "Value": "添加这位玩家到您的好友列表"
     },
     "STT:WOLAddBuddyQueryNo": {
-        "Value": "不要增加此位玩家至您的好友名单"
+        "Value": "拒绝添加这玩家到您的好友列表"
     },
     "GUI:Debug": {
-        "Value": "资讯"
+        "Value": "信息"
     },
     "GUI:CursorCheat": {
         "Value": "坐标"
@@ -14365,7 +14365,7 @@
         "Value": "对手 Ping 值 = %dms\n"
     },
     "WOL:AddBuddyQuery": {
-        "Value": "增加 %hs 至你的好友名单？"
+        "Value": "添加 %hs 到您的好友列表？"
     },
     "GUI:To": {
         "Value": "至"
@@ -14434,7 +14434,7 @@
         "Value": "%s 并未登录至 Westwood 线上。"
     },
     "TXT_USER_FIND_DISABLED": {
-        "Value": "%s 将不会回应搜寻命令。"
+        "Value": "%s 将不会响应搜寻命令。"
     },
     "TXT_REPLY_COMMAND": {
         "Value": "/reply"
@@ -14566,7 +14566,7 @@
         "Value": "玩家 %s 无法连接至游戏主机端 \n"
     },
     "TXT_TALK_HOST_ABORTED": {
-        "Value": "游戏主机端回应玩家间连接发生问题 \n"
+        "Value": "游戏主机端响应玩家间连接发生问题 \n"
     },
     "GUI:HostMapTransfer": {
         "Value": "%s 并未拥有非官方地图 %s，将会于游戏开始时传送给对方。"
@@ -14575,7 +14575,7 @@
         "Value": "您并未拥有非官方地图 %s，将会于游戏开始时传送至您的系统。"
     },
     "TXT_DISCON_ABORT": {
-        "Value": "您已经多次自锦标赛中断线M此游戏将判定您输了这场比赛。"
+        "Value": "您已经多次从锦标赛中断线，此游戏将判定您输了这场比赛。"
     },
     "TXT_DETECTING_FIREWALL_SETTINGS": {
         "Value": "侦测防火墙设置中"
@@ -14611,7 +14611,7 @@
         "Value": "传送地图中..."
     },
     "STT:PlayerSideYuriCountry": {
-        "Value": "尤里的阵营必须是独一无二的。"
+        "Value": "尤里的阵营独一无二。"
     },
     "Name:YuriCountry": {
         "Value": "尤里"
@@ -14911,7 +14911,7 @@
         "Value": "镭射飞碟"
     },
     "Name:SMIN": {
-        "Value": "奴隶矿场"
+        "Value": "奴隶矿厂"
     },
     "Name:SLAV": {
         "Value": "奴隶"
@@ -15256,7 +15256,7 @@
         "Value": "任务目标一：防止国会遭受突击。\n任务目标二：摧毁尤里的基地。"
     },
     "Brief:All06md": {
-        "Value": "在复制世界各国领袖的行动失败之后，尤里改为计划俘虏真正的领袖！好好的保护正在英国伦敦国会中的各国领袖们…，并对付尤里。\n\n任务目标一：防止国会遭受攻击。\n任务目标二：摧毁尤里的基地。"
+        "Value": "在克隆世界领袖的计划失败后，尤里转而企图绑架真正的领袖。！务必在英格兰伦敦的议会大厦死守到底，保护领袖们的安全…并对付尤里。\n\n任务目标一：防止国会遭受攻击。\n任务目标二：摧毁尤里的基地。"
     },
     "MISSION:YuriTimer": {
         "Value": "尤里部队预计到达时间："
@@ -15292,7 +15292,7 @@
         "Value": "任务目标一：摧毁盟军海军和巨炮。\n任务目标二：摧毁时间机器四周的机枪碉堡，并占领时间机器。\n任务目标三：占领四座电厂供时间机器使用。\n任务目标四：掌控苏联基地并使用它摧毁心灵支配器。"
     },
     "Brief:Sov01md": {
-        "Value": "世界分崩离析。尤里仍然安然自处的统治并无人能敌。只有尝试联军的大胆计划，即时将时间回到尤里开始阴谋和完全统治之间。\n\n任务目标一：摧毁盟军海军和巨炮。\n任务目标二：摧毁时间机器四周的机枪碉堡，并占领时间机器。\n任务目标三：占领四座电厂供时间机器使用。\n任务目标四：掌控苏联基地并使用它摧毁心灵支配器。"
+        "Value": "世界已濒临毁灭。尤里即将统治整个世界。盟军大胆的穿越时空计划，是尤里获得绝对统治权的唯一阻碍。但背叛苏联的代价，必须由我们苏联人来亲手清算——而非盟军！我们必须夺取时间机器，亲自回到过去！\n\n任务目标一：摧毁盟军海军和巨炮。\n任务目标二：摧毁时间机器四周的机枪碉堡，并占领时间机器。\n任务目标三：占领四座电厂供时间机器使用。\n任务目标四：掌控苏联基地并使用它摧毁心灵支配器。"
     },
     "MISSION:TmeTimer": {
         "Value": "时间机器重新充能时间："
@@ -15325,7 +15325,7 @@
         "Value": "提示：用工程师占领发电厂"
     },
     "MISSION:DomArmed": {
-        "Value": "心灵支配器已经联线工作了！！"
+        "Value": "心灵支配器已经上线工作了！！"
     },
     "MISSION:HintDom": {
         "Value": "提示：占领发电厂可以使心灵支配器停止工作"
@@ -15358,10 +15358,10 @@
         "Value": "任务目标一：摧毁心灵信标。\n任务目标二：摧毁心灵支配器。\n任务目标三：解决尤里的部队。"
     },
     "Brief:Sov03md": {
-        "Value": "盟军已经在英国伦敦发现了一座心灵支配器，尤里已经控制了盟军的攻击部队，以替他防守这座接近完成的心灵支配器；解救这些盟军，并联合他们一起打败尤里…，但请注意，这座支配器可能随时都会启动运转。\n\n任务目标一：摧毁心灵信标。\n任务目标二：摧毁心灵支配器。\n任务目标三：解决尤里的部队。"
+        "Value": "盟军已经在英国伦敦发现了一座心灵支配器，尤里已经控制了盟军的攻击部队，以替他防守这座接近完成的心灵支配器；解救这些盟军，并联合他们一起打败尤里…但请注意，这座支配器可能随时都可能启动运转。\n\n任务目标一：摧毁心灵信标。\n任务目标二：摧毁心灵支配器。\n任务目标三：解决尤里的部队。"
     },
     "MISSION:WarnArmd": {
-        "Value": "警告 - 心灵支配器具有防备了！！"
+        "Value": "警告 - 心灵支配器联线工作了！！"
     },
     "MISSION:WrnAmbsh": {
         "Value": "警告 - 前方可能有埋伏！"
@@ -16369,13 +16369,13 @@
         "Value": "提示：占领科技油田铁塔，可以增加现金流量。"
     },
     "MISSION:C41Air": {
-        "Value": "提示：占领科技机场，以供空中轰炸增援部队使用。"
+        "Value": "提示：占领科技机场，以供空中增援部队使用。"
     },
     "MISSION:ObjCompleteSov04md": {
         "Value": "目标完成"
     },
     "Brief:Sov05md": {
-        "Value": "我们已经在大西洋一座未经标示的小岛上，发现了尤里的秘密潜艇基地，必需阻止来自尤里雷鸣攻击潜艇的威胁！\n\n任务目标一：选择登录区域并建立一座基地。\n任务目标二：搜寻并摧毁尤里的潜艇洞库。\n任务目标三：消灭所有剩余尤里部队。"
+        "Value": "我们已经在大西洋一座未经标示的小岛上，发现了尤里的秘密潜艇基地，必须阻止来自尤里雷鸣攻击潜艇的威胁！\n\n任务目标一：选择登录区域并建立一座基地。\n任务目标二：搜寻并摧毁尤里的潜艇洞库。\n任务目标三：消灭所有剩余尤里部队。"
     },
     "LoadBrief:Sov07md": {
         "Value": "目标一：摧毁尤里的要塞"
