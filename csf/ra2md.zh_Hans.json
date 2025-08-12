@@ -48,91 +48,91 @@
         "Value": "苏联战役 - 毁天灭地大行军"
     },
     "DESC:MP02T2": {
-        "Value": "战争之岛（2）"
+        "Value": "战争之岛 (2)"
     },
     "DESC:MP06T2": {
-        "Value": "城市突击战（2）"
+        "Value": "城市突击战 (2)"
     },
     "DESC:MP11T2": {
-        "Value": "紧要关头（2）"
+        "Value": "紧要关头 (2)"
     },
     "DESC:MP08T2": {
-        "Value": "有点大的湖泊（2）"
+        "Value": "有点大的湖泊 (2)"
     },
     "DESC:MP09T3": {
         "Value": "岛屿战争（3）"
     },
     "DESC:MP01T4": {
-        "Value": "双子岛（2-4）"
+        "Value": "双子岛 (2-4)"
     },
     "DESC:MP05T4": {
-        "Value": "心脏地带（2-4）"
+        "Value": "心脏地带 (2-4)"
     },
     "DESC:MP03T4": {
-        "Value": "美国小镇（2-4）"
+        "Value": "美国小镇 (2-4)"
     },
     "DESC:MP10S4": {
-        "Value": "深水炸弹（2-4）"
+        "Value": "深水炸弹 (2-4)"
     },
     "DESC:MP12S4": {
-        "Value": "湖泊闪击战（2-4）"
+        "Value": "湖泊闪击战 (2-4)"
     },
     "DESC:MP13S4": {
-        "Value": "蒙大拿非军事区（2-4）"
+        "Value": "蒙大拿非军事区 (2-4)"
     },
     "DESC:MP13S4MW": {
-        "Value": "蒙大拿巨富（2-4）"
+        "Value": "蒙大拿巨富 (2-4)"
     },
     "DESC:MP14T2": {
-        "Value": "黄金国（2）"
+        "Value": "黄金国 (2)"
     },
     "DESC:MP15S4": {
-        "Value": "雪谷（2-4）"
+        "Value": "雪谷 (2-4)"
     },
     "DESC:MP16S4": {
-        "Value": "雪地生机（2-4）"
+        "Value": "雪地生机 (2-4)"
     },
     "DESC:MP17T6": {
-        "Value": "马利布悬崖（2-6）"
+        "Value": "马利布悬崖 (2-6)"
     },
     "DESC:MP18S3": {
-        "Value": "冷战（2-3）"
+        "Value": "冷战 (2-3)"
     },
     "DESC:MP19T4": {
-        "Value": "加州高速公路（2-4）"
+        "Value": "加州高速公路 (2-4)"
     },
     "DESC:MP20T6": {
-        "Value": "狂野战区（2-6）"
+        "Value": "狂野战区 (2-6)"
     },
     "DESC:MP21S2": {
-        "Value": "阿拉斯加油矿（2）"
+        "Value": "阿拉斯加油矿 (2)"
     },
     "DESC:MP22S8": {
-        "Value": "北极圈（2-8）"
+        "Value": "北极圈 (2-8)"
     },
     "DESC:MP23T4": {
-        "Value": "急流小岛（2-4）"
+        "Value": "急流小岛 (2-4)"
     },
     "DESC:MP25T6": {
-        "Value": "防卫区争夺（2-6）"
+        "Value": "防卫区争夺 (2-6)"
     },
     "DESC:MP26S6": {
-        "Value": "白令海峡（2-6）"
+        "Value": "白令海峡 (2-6)"
     },
     "DESC:MP27T8": {
-        "Value": "长征（2-8）"
+        "Value": "长征 (2-8)"
     },
     "DESC:MP28U4": {
-        "Value": "影视之城（2-4）"
+        "Value": "影视之城 (2-4)"
     },
     "DESC:MP29U4": {
-        "Value": "阿拉莫要塞（2）"
+        "Value": "阿拉莫要塞 (2)"
     },
     "DESC:MP30S6": {
-        "Value": "西伯利亚荒原（2-6）"
+        "Value": "西伯利亚荒原 (2-6)"
     },
     "DESC:MP32S8": {
-        "Value": "冰天雪地（2-8）"
+        "Value": "冰天雪地 (2-8)"
     },
     "DESC:NoDescription": {
         "Value": "无描述"
@@ -9776,58 +9776,58 @@
         "Value": "一触即发"
     },
     "DESC:MP01DU": {
-        "Value": "南太平洋（2-4）"
+        "Value": "南太平洋 (2-4)"
     },
     "DESC:MP04T8": {
-        "Value": "公然开战（2-8）"
+        "Value": "开放政策 (2-8)"
     },
     "DESC:MP04DU": {
-        "Value": "重返盖茨堡（2-8）"
+        "Value": "重返盖茨堡 (2-8)"
     },
     "DESC:MP04MW": {
-        "Value": "圣大非追击（2-8）"
+        "Value": "圣大非追击 (2-8)"
     },
     "DESC:MP07T4": {
-        "Value": "正面冲突（2-4）"
+        "Value": "镰刀锤头 (2-4)"
     },
     "DESC:MP09MW": {
-        "Value": "三哩岛（3）"
+        "Value": "三哩岛 (3)"
     },
     "DESC:MP18DU": {
-        "Value": "冷战（2-4）"
+        "Value": "冷战 (2-4)"
     },
     "DESC:MP24T2": {
-        "Value": "淘金潮（2）"
+        "Value": "淘金潮 (2)"
     },
     "DESC:MP24DU": {
-        "Value": "大矿区（2-4）"
+        "Value": "大矿区 (2-4)"
     },
     "DESC:MP27DU": {
-        "Value": "恶性循环（2-8）"
+        "Value": "恶性循环 (2-8)"
     },
     "DESC:MP28DU": {
-        "Value": "洛杉矶蓄水库（2-4）"
+        "Value": "洛杉矶蓄水库 (2-4)"
     },
     "DESC:MP28MW": {
-        "Value": "风城（2-4）"
+        "Value": "风城 (2-4)"
     },
     "DESC:MP29U2": {
-        "Value": "阿拉莫要塞（2）"
+        "Value": "阿拉莫要塞 (2)"
     },
     "DESC:MP31U2": {
-        "Value": "拯救行动（2）"
+        "Value": "拯救行动 (2)"
     },
     "DESC:MP31DU": {
-        "Value": "基辅城门（2）"
+        "Value": "基辅城门 (2)"
     },
     "DESC:MP32DU": {
-        "Value": "大雪球效应（2-8）"
+        "Value": "雪球效应 (2-8)"
     },
     "DESC:MP33U4": {
-        "Value": "重返巴黎（2-4）"
+        "Value": "重返巴黎 (2-4)"
     },
     "DESC:MP34U4": {
-        "Value": "特区暴动（2-4）"
+        "Value": "特区暴动 (2-4)"
     },
     "MSG:LightningStormActive": {
         "Value": "其他闪电风暴已经启动，取消闪电风暴。"
@@ -10247,13 +10247,13 @@
         "Value": "调整语音音量大小。"
     },
     "STT:MultiOptComboCard": {
-        "Value": "显示网卡 IP 地址（仅限进阶玩家使用）。"
+        "Value": "显示网卡 IP 地址（仅限高阶玩家使用）。"
     },
     "STT:MultiOptEditSocketNum": {
-        "Value": "编辑 IPX socket 数字（仅限进阶玩家使用）。"
+        "Value": "编辑 IPX 端口号（仅限高阶玩家使用）。"
     },
     "STT:MultiOptEditDestAddr": {
-        "Value": "编辑目标位置（仅限进阶玩家使用）。"
+        "Value": "编辑目标位置（仅限高阶玩家使用）。"
     },
     "STT:MultiOptButtonOk": {
         "Value": "接受变更。"
@@ -12847,7 +12847,7 @@
         "Value": "玩家可以在盟友建物旁建造建筑物。"
     },
     "DESC:MP35U4": {
-        "Value": "分裂的城市（2-4）"
+        "Value": "分裂的城市 (2-4)"
     },
     "NAME:EinsteinLab": {
         "Value": "爱因斯坦实验室"
@@ -13093,13 +13093,13 @@
         "Value": "发现奖励，时间已延长。"
     },
     "NAME:TOURNEY1": {
-        "Value": "正式锦标赛地图（2）"
+        "Value": "正式锦标赛地图 (2)"
     },
     "NAME:TOURNEY2": {
-        "Value": "正式锦标赛地图（4）"
+        "Value": "正式锦标赛地图 (4)"
     },
     "NAME:TOURNEY3": {
-        "Value": "正式锦标赛地图（8）"
+        "Value": "正式锦标赛地图 (8)"
     },
     "NAME:POLARBEAR": {
         "Value": "北极熊"
@@ -14302,10 +14302,10 @@
         "Value": "空降部队"
     },
     "Name:Tourney4": {
-        "Value": "正式锦标赛地图 A（2）"
+        "Value": "正式锦标赛地图 A (2)"
     },
     "Name:Tourney5": {
-        "Value": "正式锦标赛地图 B（2）"
+        "Value": "正式锦标赛地图 B (2)"
     },
     "STT:OptionInternetResumeMission": {
         "Value": "回到任务。"
@@ -14593,10 +14593,10 @@
         "Value": "端口号"
     },
     "STT:MultiOptPortNumber": {
-        "Value": "编辑您的端口号（建议进阶玩家使用）。"
+        "Value": "编辑您的端口号（建议高阶玩家使用）。"
     },
     "STT:MultiOptSendDelay": {
-        "Value": "其他玩家于传送给您前进行延迟（建议进阶玩家使用）。"
+        "Value": "其他玩家于传送给您前进行延迟（建议高阶玩家使用）。"
     },
     "TXT_FIREWALL_SETTINGS_WARNING1": {
         "Value": "警告：\n只有极少数防火墙需要开启 '传送延迟' 选项，同时假如在不需要的情况下开启将导致连接问题。"
@@ -14635,7 +14635,7 @@
         "Value": "尤里复制人"
     },
     "Name:YuriPrime": {
-        "Value": "尤里X"
+        "Value": "尤里本尊"
     },
     "Name:Lasher": {
         "Value": "鞭笞者坦克"
@@ -14908,7 +14908,7 @@
         "Value": "秘密科技实验室"
     },
     "Name:DISK": {
-        "Value": "镭射飞碟"
+        "Value": "浮游飞碟"
     },
     "Name:SMIN": {
         "Value": "奴隶矿厂"
@@ -15667,7 +15667,7 @@
         "Value": "为了躲避您的突击，尤里已经撤退回他祖先在罗马尼亚的家乡，我们不允许他有任何喘息的机会，否则他将有机会重整势力、再度卷土重来威胁我们全体。将尤里永远的消灭吧！\n\n任务目标一：摧毁尤里的要塞。"
     },
     "GUI:UnderParMsgSov07md": {
-        "Value": "由于您相当猛烈的攻击和优异的战术，让尤里晕头转向。无庸置疑的您能将他完全的摧毁。"
+        "Value": "由于您相当猛烈的攻击和优异的战术，让尤里晕头转向。毋庸置疑，您能将他完全地摧毁。"
     },
     "GUI:OverParMsgSov07md": {
         "Value": "虽然这场战争相当漫长，你还是将尤里从这个世界上消灭了。"
@@ -16378,7 +16378,7 @@
         "Value": "我们已经在大西洋一座未经标示的小岛上，发现了尤里的秘密潜艇基地，必须阻止来自尤里雷鸣攻击潜艇的威胁！\n\n任务目标一：选择登录区域并建立一座基地。\n任务目标二：搜寻并摧毁尤里的潜艇洞库。\n任务目标三：消灭所有剩余尤里部队。"
     },
     "LoadBrief:Sov07md": {
-        "Value": "目标一：摧毁尤里的要塞"
+        "Value": "任务目标一：摧毁尤里的要塞"
     },
     "Name:CALA10": {
         "Value": "看板"
