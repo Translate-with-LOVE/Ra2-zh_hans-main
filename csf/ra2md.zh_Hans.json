@@ -14623,7 +14623,7 @@
         "Value": "尤里阵营拥有自己的科技树。"
     },
     "Name:INIT": {
-        "Value": "尤里新兵"
+        "Value": "教团新兵"
     },
     "Name:Virus": {
         "Value": "病毒狙击手"
@@ -15601,7 +15601,7 @@
         "Value": "魔法一号"
     },
     "MISSION:Clones": {
-        "Value": "提示：使用军犬以对付尤里复制人与尤里新兵"
+        "Value": "提示：使用军犬以对付尤里复制人与教团新兵"
     },
     "MISSION:AllGone": {
         "Value": "我们的部队已经被摧毁了"
