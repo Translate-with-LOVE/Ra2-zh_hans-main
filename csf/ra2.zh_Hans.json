@@ -162,7 +162,7 @@
         "Value": "新兵"
     },
     "MSG:CannotCreateChannel": {
-        "Value": "您无法在此开创频道"
+        "Value": "您无法在这里建立频道"
     },
     "MSG:UnableMapSelect": {
         "Value": "无法初始化地图选择器！\n"
@@ -627,7 +627,7 @@
         "Value": "网卡"
     },
     "GUI:SocketNumber": {
-        "Value": "Socket 号码"
+        "Value": "端口号"
     },
     "GUI:DestinationNetwork": {
         "Value": "目标网络"
@@ -2385,16 +2385,16 @@
         "Value": "加油站"
     },
     "Name:ABAN17": {
-        "Value": "加油帮浦"
+        "Value": "加油泵"
     },
     "Name:ABAN18": {
         "Value": "加油站招牌"
     },
     "Name:CA0001": {
-        "Value": "雷得旅馆"
+        "Value": "雷德公路餐厅"
     },
     "Name:CA0002": {
-        "Value": "山伯父子之家"
+        "Value": "桑德伯格父子之家"
     },
     "Name:CA0003": {
         "Value": "临时住宅"
@@ -2418,7 +2418,7 @@
         "Value": "地下住宅"
     },
     "Name:CA0010": {
-        "Value": "李利旅人之家"
+        "Value": "乐途旅舍"
     },
     "Name:CA0011": {
         "Value": "水槽"
@@ -2562,7 +2562,7 @@
         "Value": "斐乐抽水站"
     },
     "Name:CITY20": {
-        "Value": "加油帮浦"
+        "Value": "加油泵"
     },
     "Name:CITY21": {
         "Value": "加油站招牌"
@@ -2574,13 +2574,13 @@
         "Value": "织女星金字塔"
     },
     "Name:BBOARD01": {
-        "Value": "来雷德旅馆"
+        "Value": "现在就在雷德公路餐厅就餐"
     },
     "Name:BBOARD02": {
         "Value": "美味的优卡可乐！"
     },
     "Name:BBOARD03": {
-        "Value": "汉堡 $99"
+        "Value": "汉堡 $0.99"
     },
     "Name:BBOARD04": {
         "Value": "拉斯维加斯观光"
@@ -2604,7 +2604,7 @@
         "Value": "WW 海鲜牛排餐，来试试吧！"
     },
     "Name:BBOARD11": {
-        "Value": "离迪库咖啡厅仅十一哩！"
+        "Value": "迪库咖啡厅仅11英里！"
     },
     "Name:BBOARD12": {
         "Value": "休想逃出射手收容所！"
@@ -2616,7 +2616,7 @@
         "Value": "比尔鲍伯收割机学校"
     },
     "Name:BBOARD15": {
-        "Value": "潘奴洛大庄园"
+        "Value": "潘努洛大庄园"
     },
     "Name:CTDAM": {
         "Value": "水库"
@@ -4077,7 +4077,7 @@
         "Value": "没有 IPX 协议"
     },
     "TXT_INVALID_SOCKET": {
-        "Value": "Socket 位置号码必须介于 0 到 16383 之间"
+        "Value": "端口号必须在 0 到 16383 之间"
     },
     "TXT_DESTNET_ADDR_ERROR": {
         "Value": "目标网络 IP 地址必须为 xx.xx.xx.xx 的格式"
@@ -4362,7 +4362,7 @@
         "Value": "-DESTNET = 指定目标系统的网络号码\n"
     },
     "TXT_OPTION_HELP_04": {
-        "Value": "-SOCKET = 网络Socket ID (0 - 16383)\n"
+        "Value": "-SOCKET = 网络端口号 (0 - 16383)\n"
     },
     "TXT_OPTION_HELP_05": {
         "Value": "-STEALTH = 隐藏多人游戏名称("
@@ -5667,7 +5667,7 @@
         "Extra": "u02e LBL"
     },
     "VOX:cevau03": {
-        "Value": "苏联基础科技。犀牛坦克行动缓慢，装甲坚实，装置短距破坏力强力的主炮。",
+        "Value": "苏联基础科技。犀牛坦克行动缓慢，装甲坚实，装备了短距破坏力强力的主炮。",
         "Extra": "u03e LBL"
     },
     "VOX:cevau04": {
@@ -8323,7 +8323,7 @@
         "Extra": "e01e LBL"
     },
     "VOX:ma9se02": {
-        "Value": "热饼！没有玛雅金字塔_那是光棱炮。",
+        "Value": "好靓！那不是玛雅金字塔_ 那是光棱炮。",
         "Extra": "e02e LBL"
     },
     "VOX:ma9se03": {
