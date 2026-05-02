@@ -13,15 +13,11 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-      # - name: Download latest csf translate file in INI format
-      #   run: ./.github/scripts/download_latest_csf.cmd
-      #   shell: cmd
-      # - name: Covent format to csf
-      #   run: |
-      #     ./.github/bin/CsfCoventer/CsfCoventer.exe "./ra2.csf.ini" "./ra2md.csf.ini"
-      #     Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
-      #     Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
-      - name: Covent json to csf
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Convert json to csf
         run: |
           cd ./.github/scripts/convert-json-to-csf
           node index.js
