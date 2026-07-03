@@ -10598,7 +10598,7 @@
         "Value": "建筑物"
     },
     "Name:CAMSC01": {
-        "Value": "美又美热狗摊！"
+        "Value": "美味先生热狗！"
     },
     "Name:CAMSC02": {
         "Value": "遮阳伞"
@@ -13459,7 +13459,7 @@
         "Value": "没有你们，我们不可能完成这个项目."
     },
     "CRD:and": {
-        "Value": "另外"
+        "Value": "以及"
     },
     "CRD_TTL:Cast": {
         "Value": "演职人员"
