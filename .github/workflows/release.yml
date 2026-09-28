@@ -74,6 +74,11 @@ jobs:
         run: |
           Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
           Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
+      - name: Re-pack audio containers with Chinese audio
+        run: |
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audio" -mix "./_src_files/language/audio.mix"
+          ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/audiomd" -mix "./_src_files/langmd/audiomd.mix"
+        shell: pwsh
       - name: Pack langeuage pack mix files
         run: |
           ./.github/bin/ccmixar/ccmixar.exe pack -game ra2 -dir "./_src_files/language" -mix "./language.mix" -checksum -encrypt

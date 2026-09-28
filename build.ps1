@@ -153,6 +153,13 @@ Write-Step "Step 10: Copy other Chinese audio to mix folders"
 Copy-Item "./audio_inMIX/ra2/*" -Destination "./_src_files/audio/" -Force
 Copy-Item "./audio_inMIX/yr/*" -Destination "./_src_files/audiomd/" -Force
 
+Write-Step "Step 10.5: Re-pack audio containers with Chinese audio"
+# 关键：audio.mix / audiomd.mix 内嵌 audio.bag + 散装语音，
+# 必须在 Step 9 / Step 10 写入中文音频之后重建，否则 language.mix 里
+# 嵌的仍是 Step 6 那份原版英文音频（会导致 with_audio 包不含中文配音）。
+& $Ccmixar pack -game ra2 -dir "./_src_files/audio" -mix "./_src_files/language/audio.mix"
+& $Ccmixar pack -game ra2 -dir "./_src_files/audiomd" -mix "./_src_files/langmd/audiomd.mix"
+
 Write-Step "Step 11: Pack language.mix and langmd.mix (with audio)"
 & $Ccmixar pack -game ra2 -dir "./_src_files/language" -mix "./language.mix" -checksum -encrypt
 & $Ccmixar pack -game ra2 -dir "./_src_files/langmd" -mix "./langmd.mix" -checksum
