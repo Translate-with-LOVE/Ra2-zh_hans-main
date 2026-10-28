@@ -36,12 +36,20 @@ function Ensure-Directory {
     }
 }
 
+function Invoke-Checked {
+    param([string]$Command, [string[]]$Arguments)
+    & $Command @Arguments
+    if ($LASTEXITCODE -ne 0) { throw "$Command failed with exit code $LASTEXITCODE" }
+}
+
 function Convert-SubtitleEncoding {
     param([string]$FilePath)
     $Content = Get-Content -Path $FilePath -Encoding BigEndianUnicode -Raw
     $Content = $Content -replace '\r?\n', "`r`n"
     [System.IO.File]::WriteAllText($FilePath, $Content, [System.Text.Encoding]::Unicode)
 }
+
+Invoke-Checked 'node' @('.github/scripts/convert-png-to-shp/resources.js', '--check-inputs')
 
 Write-Host "Red Alert 2 Chinese Language Pack Builder" -ForegroundColor Green
 Write-Host "=========================================="
@@ -75,7 +83,11 @@ Write-Step "Step 3: Convert PNG to SHP (Cameos)"
 Push-Location ".github/scripts/convert-png-to-shp"
 try {
     if (-not $SkipNpmInstall) {
-        & npm install
+        Invoke-Checked 'npm' @('install')
+    }
+    Invoke-Checked 'node' @('--test', 'resources.test.js')
+    Invoke-Checked 'node' @('resources.js')
+    if (-not $SkipNpmInstall) {
         & node index.js
     }
 }
@@ -99,7 +111,6 @@ Copy-Item "./bik/yr/*" -Destination "./_src_files/langmd/" -Force
 Copy-Item "./credits/credits.txt" -Destination "./_src_files/language/" -Force
 Copy-Item "./credits/creditsmd.txt" -Destination "./_src_files/langmd/" -Force
 Copy-Item "./fnt/game.fnt" -Destination "./_src_files/language/" -Force
-Copy-Item "./shp/grfxtxt.shp" -Destination "./_src_files/language/" -Force
 
 Write-Step "Step 6: Pack audio.mix and audiomd.mix"
 & $Ccmixar pack -game ra2 -dir "./_src_files/audio" -mix "./_src_files/language/audio.mix"

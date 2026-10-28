@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: '24'
+      - name: Validate PNG resource inputs
+        run: node .github/scripts/convert-png-to-shp/resources.js --check-inputs
       - name: Convert json to csf
         run: |
           cd ./.github/scripts/convert-json-to-csf
@@ -26,10 +28,15 @@ jobs:
           Copy-Item "./ra2.csf" -Destination "./_src_files/language/" -Force
           Copy-Item "./ra2md.csf" -Destination "./_src_files/langmd/" -Force
         shell: pwsh
-      - name: Convert cameo to shp files
+      - name: Convert PNG resources and cameos to SHP
         run: |
           cd ./.github/scripts/convert-png-to-shp
           npm i
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          node --test resources.test.js
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          node resources.js
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           node index.js
       - name: Copy & pack cameo files
         run: |
@@ -45,7 +52,6 @@ jobs:
           Copy-Item "./credits/credits.txt" -Destination "./_src_files/language/" -Force
           Copy-Item "./credits/creditsmd.txt" -Destination "./_src_files/langmd/" -Force
           Copy-Item "./fnt/game.fnt" -Destination "./_src_files/language/" -Force
-          Copy-Item "./shp/grfxtxt.shp" -Destination "./_src_files/language/" -Force
         shell: pwsh
       - name: Pack audio.mix & audiomd.mix
         run: |
