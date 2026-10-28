@@ -1929,7 +1929,7 @@
         "Value": "尤里"
     },
     "Name:IVAN": {
-        "Value": "疯狂伊文"
+        "Value": "疯狂伊万"
     },
     "Name:DESO": {
         "Value": "辐射工兵"
@@ -1971,7 +1971,7 @@
         "Value": "心灵部队"
     },
     "Name:CIVAN": {
-        "Value": "超时空伊文"
+        "Value": "超时空伊万"
     },
     "Name:YURIPR": {
         "Value": "至尊尤里"
@@ -6375,7 +6375,7 @@
         "Extra": "u17e LBL"
     },
     "VOX:csofu18": {
-        "Value": "疯狂伊文能在敌人建筑上装置炸弹，某个征召兵也许也愿意为你在他身上布置炸弹。",
+        "Value": "疯狂伊万能在敌人建筑上装置炸弹，某个征召兵也许也愿意为你在他身上布置炸弹。",
         "Extra": "u18e LBL"
     },
     "VOX:csofu19": {
@@ -6943,7 +6943,7 @@
         "Extra": "sede LBL"
     },
     "VOX:icrasee": {
-        "Value": "<发狂地大叫>伊文不在家！",
+        "Value": "<发狂地大叫>伊万不在家！",
         "Extra": "seee LBL"
     },
     "VOX:icrasef": {
@@ -7459,7 +7459,7 @@
         "Extra": "t08e LBL"
     },
     "VOX:uinst09": {
-        "Value": "斯大林失踪后，这个人，亚历山大．罗曼诺夫，在盟军指挥官的扶植下接过了权力。",
+        "Value": "斯大林失踪后，这个人，阿列克谢．罗曼诺夫，在盟军指挥官的扶植下接过了权力。",
         "Extra": "t09e LBL"
     },
     "VOX:uinst10": {
@@ -13717,7 +13717,7 @@
         "Value": "古巴的嘲笑，恐怖分子，黑鹰战机，法国新闻播报员"
     },
     "CRD:BritishtauntsKirovCrazyIvan": {
-        "Value": "英国嘲讽，基洛夫飞艇，疯狂伊文"
+        "Value": "英国嘲讽，基洛夫飞艇，疯狂伊万"
     },
     "CRD:SergeantFlakWWDomination": {
         "Value": "教官，防空步兵，世界主宰，旁白"
@@ -13906,7 +13906,7 @@
         "Value": "尤里的阴谋（2-3）"
     },
     "NAME:WEEK44": {
-        "Value": "卡维尔护航舰队（2-4）"
+        "Value": "卡维尔护送车队（2-4）"
     },
     "NAME:WEEK45": {
         "Value": "总统先生"
